@@ -1,0 +1,2619 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="yandex-verification" content="36e2296ac3d878ff" />
+	<!-- Yandex.Metrika counter -->
+    <!--    <noscript><div><img src="https://mc.yandex.ru/watch/86229657" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	-->
+    <!-- /Yandex.Metrika counter -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="Cache-control" content="NO-CACHE">
+        <title>Расписание</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/bitrix/js/main/core/css/core.min.css?16330778232854" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="/local/templates/tsu/css/slick.css?16330781861590" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/style.css?1713436232119869" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/abityrientu.css?171387445839516" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/institut.css?171577628214961" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/new-styles.css?1726649275124906" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/datepicker.min.css?163307818613922" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/jquery.mCustomScrollbar.min.css?163307819342839" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/news.css?17168936539622" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/number_plugin.css?16330781851767" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/jquery.fancybox.min.css?163307818612795" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/swiper.css?163307819213620" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/css/bootstrap-3-4-1.css?1709550998150074" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/tsu/styles.css?1725953450259" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+
+
+
+	
+	
+	
+	
+                                            	
+	
+	
+                                                    
+
+        
+	
+
+		
+</head>
+<body>
+<!-- Top.Mail.Ru counter -->
+<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3513922;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+<!-- /Top.Mail.Ru counter -->
+
+<header class="header">
+    <div class="header__row">
+        <nav class="header__menu menu">
+            <div class="menu__body__top">
+                <div class="container flex">
+                    <a href="/" class="header__logo__mob"><img src="/local/templates/tsu/img/logo.png" alt="logo"></a>
+                    <div class="founded__by">
+                        Основан в 1918 году                    </div>
+                    <ul class="menu__list flex">
+	<li>
+	    <a href="tel:+78002004465" class="menu__link tel">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+	            <g>
+	                <g>
+	                    <g>
+	                        <path fill="#3834a4"
+	                              d="M2.948 1.371l.01.01 1.284 1.23c.075.078.142.23.142.43 0 .203-.07.357-.145.434l-.856.857a.6.6 0 0 0-.17.508c.132.918.69 1.833 1.385 2.534.695.7 1.61 1.272 2.547 1.405a.6.6 0 0 0 .51-.17l.855-.858c.076-.076.23-.145.43-.145.202 0 .355.07.431.145l1.284 1.286c.076.077.145.231.145.434 0 .203-.07.357-.146.433-.698.7-1.623.896-1.927.896-.826 0-1.416-.053-2.098-.372-.706-.33-1.556-.968-2.824-2.238-1.25-1.253-1.892-2.211-2.227-2.978-.33-.754-.378-1.36-.378-1.956 0-.376.046-.665.166-.943.12-.284.335-.597.728-.991.066-.066.205-.13.404-.121a.69.69 0 0 1 .45.17zM2.544.001c-.439-.016-.938.11-1.3.473-.461.463-.782.9-.982 1.367C.061 2.312 0 2.774 0 3.256c0 .688.059 1.476.478 2.436.414.948 1.162 2.026 2.478 3.345 1.298 1.301 2.266 2.058 3.164 2.478.921.43 1.72.485 2.607.485.572 0 1.82-.289 2.777-1.248.352-.352.496-.84.496-1.281 0-.44-.144-.929-.496-1.281L10.22 6.904c-.352-.353-.84-.498-1.28-.498-.44 0-.929.145-1.28.498l-.626.627c-.526-.15-1.095-.508-1.585-1.002s-.84-1.063-.988-1.58l.626-.627c.352-.352.496-.84.496-1.28 0-.441-.144-.93-.496-1.282l-.01-.01L3.792.519c-.34-.338-.81-.5-1.248-.517z"/>
+	                    </g>
+	                </g>
+	            </g>
+	        </svg>
+	        8 (800) 200-44-65
+	    </a>
+	</li>
+	<li>
+	    <a href="tel:+74752723434" class="menu__link tel">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+	            <g>
+	                <g>
+	                    <g>
+	                        <path fill="#3834a4"
+	                              d="M2.948 1.371l.01.01 1.284 1.23c.075.078.142.23.142.43 0 .203-.07.357-.145.434l-.856.857a.6.6 0 0 0-.17.508c.132.918.69 1.833 1.385 2.534.695.7 1.61 1.272 2.547 1.405a.6.6 0 0 0 .51-.17l.855-.858c.076-.076.23-.145.43-.145.202 0 .355.07.431.145l1.284 1.286c.076.077.145.231.145.434 0 .203-.07.357-.146.433-.698.7-1.623.896-1.927.896-.826 0-1.416-.053-2.098-.372-.706-.33-1.556-.968-2.824-2.238-1.25-1.253-1.892-2.211-2.227-2.978-.33-.754-.378-1.36-.378-1.956 0-.376.046-.665.166-.943.12-.284.335-.597.728-.991.066-.066.205-.13.404-.121a.69.69 0 0 1 .45.17zM2.544.001c-.439-.016-.938.11-1.3.473-.461.463-.782.9-.982 1.367C.061 2.312 0 2.774 0 3.256c0 .688.059 1.476.478 2.436.414.948 1.162 2.026 2.478 3.345 1.298 1.301 2.266 2.058 3.164 2.478.921.43 1.72.485 2.607.485.572 0 1.82-.289 2.777-1.248.352-.352.496-.84.496-1.281 0-.44-.144-.929-.496-1.281L10.22 6.904c-.352-.353-.84-.498-1.28-.498-.44 0-.929.145-1.28.498l-.626.627c-.526-.15-1.095-.508-1.585-1.002s-.84-1.063-.988-1.58l.626-.627c.352-.352.496-.84.496-1.28 0-.441-.144-.93-.496-1.282l-.01-.01L3.792.519c-.34-.338-.81-.5-1.248-.517z"/>
+	                    </g>
+	                </g>
+	            </g>
+	        </svg>
+	        8 (4752) 72-34-34
+	    </a>
+	</li>
+	<li>
+	    <a href="mailto:post@tsutmb.ru" class="menu__link mail">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11">
+	            <g>
+	                <g>
+	                    <g>
+	                        <path fill="#3834a4"
+	                              d="M7.295 4.25L2.837 1.46h8.916zM7.3 5.97l5.84-3.65v5.71a.73.73 0 0 1-.73.73H2.19a.73.73 0 0 1-.73-.73V2.32zM2.19 0C.98 0 0 .98 0 2.19v5.84c0 1.21.98 2.19 2.19 2.19h10.22c1.21 0 2.19-.98 2.19-2.19V2.19C14.6.98 13.62 0 12.41 0z"/>
+	                    </g>
+	                </g>
+	            </g>
+	        </svg>
+	        post@tsutmb.ru
+	    </a>
+	</li>
+</ul>                    <div class="menu__container flex">
+                        <ul class="top__right flex">
+                            <li class="li-drop-vrsion">
+                                <a itemprop="copy" href="#" class="top-header-links toggle-drop-down-version" data-toggle="tooltip" title="Версия сайта для слабовидящих">
+									<span class="fa-low-vision">
+										<img src="/local/templates/tsu/img/Icon_view_outline.svg" alt="img">
+									</span>
+                                </a>
+                                <div class="drop-down-version drop-down-version--desktop">
+                                    <div class="drop-down-version__title">Версия для слабовидящих</div>
+                                    <div class="drop-down-version__line">
+                                        <div class="drop-down-version__sub-title">Размер шрифта:</div>
+                                        <div class="drop-down-version__right">
+                                            <div data-control-size="def" class="drop-down-version__wrap-item drop-down-version__wrap-item--active">
+                                                <div class="drop-down-version__small-text">Аб</div>
+                                            </div>
+                                            <div data-control-size="big" class="drop-down-version__wrap-item">
+                                                <div class="drop-down-version__big-text">Аб</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="drop-down-version__line">
+                                        <div class="drop-down-version__sub-title">Цветовая схема:</div>
+                                        <div class="drop-down-version__right">
+                                            <div data-control-color="light" class="drop-down-version__wrap-item drop-down-version__wrap-item--active">
+                                                <svg class="drop-down-version__icon drop-down-version__icon--color"><use href="/local/templates/tsu/sprite/sprite.svg#color"></use></svg>
+                                            </div>
+                                            <div data-control-color="dark" class="drop-down-version__wrap-item">
+                                                <svg class="drop-down-version__icon"><use href="/local/templates/tsu/sprite/sprite.svg#color"></use></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="drop-down-version__line">
+                                        <div class="drop-down-version__sub-title">Изображения:</div>
+                                        <div class="drop-down-version__right">
+                                            <div data-control-image="image" class="drop-down-version__wrap-item drop-down-version__wrap-item--active">
+                                                <svg class="drop-down-version__icon drop-down-version__icon--color"><use href="/local/templates/tsu/sprite/sprite.svg#image"></use></svg>
+                                            </div>
+                                            <div data-control-image="no-image" class="drop-down-version__wrap-item">
+                                                <svg class="drop-down-version__icon"><use href="/local/templates/tsu/sprite/sprite.svg#no-image"></use></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="will__disappear">
+                                <a href="#" class="search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#3834a5"
+                                                          d="M0 5.12a5.12 5.12 0 1 1 10.24 0A5.12 5.12 0 0 1 0 5.12zm5.12-3.84a3.84 3.84 0 1 0 0 7.68 3.84 3.84 0 0 0 0-7.68z"/>
+                                                </g>
+                                                <g>
+                                                    <path fill="#3834a5"
+                                                          d="M7.867 7.867a.64.64 0 0 1 .906 0l3.159 2.93a.64.64 0 0 1-.906.905l-3.159-2.93a.64.64 0 0 1 0-.905z"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="language">
+                                <div class="select-language">
+                                    <div class="select-language__result">ru</div>
+
+                                    <div class="select-language__modal select-language__modal--close">
+										<a href="/" class="select-language__value">ru</a>
+                                        <a href="http://eng.tsutmb.ru/" target="_blank" class="select-language__value">en</a>
+                                        <a href="http://cn.tsutmb.ru/" target="_blank" class="select-language__value">cn</a>
+                                    </div>
+                                </div>
+                            </li>
+                            
+
+							<li class="institutions"><a href="/institutes/">Институты		            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+		                <g>
+		                    <g transform="rotate(-90 4.5 2.5)">
+		                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+		                    </g>
+		                </g>
+		            </svg>
+	            </a>
+	            <div class="wrapper__submenu submenu-right-pos submenu-right-pos--institut">
+	                <div class="submenu flex">
+	                		                		<div class="sub__left">
+	                				                				<div><a href="/institutes/imfit/">Институт новых технологий и искусственного интеллекта</a></div>
+	                				                				<div><a href="/institutes/med/">Институт медицины и здоровьесбережения</a></div>
+	                				                				<div><a href="/institutes/law/">Институт права и национальной безопасности</a></div>
+	                				                				<div><a href="/institutes/army/">Военный учебный центр</a></div>
+	                				                		</div>
+	                		<div class="sub__right">
+	                																					<div><a href="/institutes/history/">Институт образования и общественных наук</a></div>
+										                																					<div><a href="/institutes/culture/">Институт креативных индустрий, экономики и предпринимательства</a></div>
+										                																					<div><a href="/institutes/sport/">Факультет физической культуры и спорта</a></div>
+										                																					<div><a href="/institutes/lyceum/">Державинский лицей</a></div>
+										                				                		</div>
+	                		                </div>
+	            </div>
+	        </li>
+	    		                        </ul>
+                        <div class="personal__account">
+    <a href="https://tsutmb.ru/link_lk.php" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewbox="null">
+            <g>
+                <g>
+                    <g>
+                        <path fill="#fff" d="M3.46 2.765a2.765 2.765 0 1 1 5.53 0 2.765 2.765 0 0 1-5.53 0zm2.77-1.383a1.387 1.387 0 1 0 0 2.775 1.387 1.387 0 0 0 0-2.775z"></path>
+                    </g>
+                    <g>
+                        <path fill="#fff" d="M2.949 7.56c1.204-.462 2.498-.65 3.272-.65.774 0 2.068.188 3.272.65 1.175.453 2.466 1.246 2.913 2.587a.691.691 0 0 1 0 .438c-.432 1.296-1.496 2.104-2.636 2.579-1.142.476-2.447.658-3.55.658-1.101 0-2.406-.182-3.548-.658-1.14-.475-2.204-1.283-2.637-2.58a.691.691 0 0 1 0-.437c.447-1.34 1.739-2.134 2.914-2.586zm-1.514 2.811c.304.665.927 1.166 1.768 1.517.932.388 2.046.552 3.018.552.971 0 2.086-.164 3.017-.552.842-.35 1.464-.852 1.768-1.517-.313-.634-1.044-1.149-2.01-1.52-1.042-.4-2.167-.559-2.775-.559-.608 0-1.734.158-2.776.56-.965.37-1.696.885-2.01 1.52z"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <span>Личный кабинет</span>
+    </a>
+</div><br>                    </div>
+                    <div class="header__burger">
+                        <input type="checkbox" id="hmt_16" class="hidden-menu-ticker">
+                        <label class="btn-menu standarthover" for="hmt_16">
+                            <span class="first"></span>
+                            <span class="second"></span>
+                            <span class="third"></span>
+                        </label>
+                        <div class="hidden-menu">
+                            <div class="hidden__menu__content">
+                                <div class="mobile__header flex">
+                           <div class="language">
+                                        <div class="select-language">
+                                            <div class="select-language__result">ru</div>
+
+                                            <div class="select-language__modal select-language__modal--close">
+												<a href="/" class="select-language__value">ru</a>
+                                                <a href="http://eng.tsutmb.ru/" target="_blank" class="select-language__value">en</a>
+                                                <a href="http://cn.tsutmb.ru/" target="_blank" class="select-language__value">cn</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="personal__account">
+    <a href="https://tsutmb.ru/link_lk.php" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewbox="null">
+            <g>
+                <g>
+                    <g>
+                        <path fill="#fff" d="M3.46 2.765a2.765 2.765 0 1 1 5.53 0 2.765 2.765 0 0 1-5.53 0zm2.77-1.383a1.387 1.387 0 1 0 0 2.775 1.387 1.387 0 0 0 0-2.775z"></path>
+                    </g>
+                    <g>
+                        <path fill="#fff" d="M2.949 7.56c1.204-.462 2.498-.65 3.272-.65.774 0 2.068.188 3.272.65 1.175.453 2.466 1.246 2.913 2.587a.691.691 0 0 1 0 .438c-.432 1.296-1.496 2.104-2.636 2.579-1.142.476-2.447.658-3.55.658-1.101 0-2.406-.182-3.548-.658-1.14-.475-2.204-1.283-2.637-2.58a.691.691 0 0 1 0-.437c.447-1.34 1.739-2.134 2.914-2.586zm-1.514 2.811c.304.665.927 1.166 1.768 1.517.932.388 2.046.552 3.018.552.971 0 2.086-.164 3.017-.552.842-.35 1.464-.852 1.768-1.517-.313-.634-1.044-1.149-2.01-1.52-1.042-.4-2.167-.559-2.775-.559-.608 0-1.734.158-2.776.56-.965.37-1.696.885-2.01 1.52z"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <span>Личный кабинет</span>
+    </a>
+</div><br>                                </div>
+                                <div class="visually__impaired">
+                                    <a itemprop="copy" href="#" class="top-header-links toggle-mobile-version" data-toggle="tooltip" title="Версия сайта для слабовидящих">
+											<span class="fa-low-vision">
+												<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"
+                                                     viewBox="0 0 18 12">
+													<g>
+														<g>
+															<g>
+																<path fill="#3834a5"
+                                                                      d="M.863 5.656C1.356 3.684 3.73 0 9.208 0c5.478 0 7.852 3.684 8.345 5.656l.049.195-.045.196c-.495 2.143-2.888 5.671-8.349 5.671-5.507 0-7.85-3.842-8.34-5.639L.81 5.87zm1.685.193c.476 1.377 2.334 4.195 6.655 4.195 4.385 0 6.213-2.649 6.66-4.177-.456-1.445-2.302-4.193-6.66-4.193-4.34 0-6.189 2.725-6.655 4.175z"/>
+															</g>
+															<g>
+																<path fill="#3834a5"
+                                                                      d="M6.7 5.861a2.511 2.511 0 1 1 5.022 0 2.511 2.511 0 0 1-5.022 0z"/>
+															</g>
+														</g>
+													</g>
+												</svg>
+											</span>
+                                        Версия для слабовидящих
+                                    </a>
+                                    <div class="drop-down-version drop-down-version--mobile">
+                                        <div class="drop-down-version__line">
+                                            <div class="drop-down-version__sub-title">Размер шрифта:</div>
+
+                                            <div class="drop-down-version__right">
+                                                <div data-control-size="def" class="drop-down-version__wrap-item drop-down-version__wrap-item--active">
+                                                    <div class="drop-down-version__small-text">Аб</div>
+                                                </div>
+
+                                                <div data-control-size="big" class="drop-down-version__wrap-item">
+                                                    <div class="drop-down-version__big-text">Аб</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop-down-version__line">
+                                            <div class="drop-down-version__sub-title">Цветовая схема:</div>
+
+                                            <div class="drop-down-version__right">
+                                                <div data-control-color="light" class="drop-down-version__wrap-item drop-down-version__wrap-item--active">
+                                                    <svg class="drop-down-version__icon drop-down-version__icon--color"><use href="/local/templates/tsu/sprite/sprite.svg#color"></use></svg>
+                                                </div>
+
+                                                <div data-control-color="dark" class="drop-down-version__wrap-item">
+                                                    <svg class="drop-down-version__icon"><use href="/local/templates/tsu/sprite/sprite.svg#color"></use></svg>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop-down-version__line">
+                                            <div class="drop-down-version__sub-title">Изображения:</div>
+
+                                            <div class="drop-down-version__right">
+                                                <div data-control-image="image" class="drop-down-version__wrap-item drop-down-version__wrap-item--active">
+                                                    <svg class="drop-down-version__icon drop-down-version__icon--color"><use href="/local/templates/tsu/sprite/sprite.svg#image"></use></svg>
+                                                </div>
+
+                                                <div data-control-image="no-image" class="drop-down-version__wrap-item">
+                                                    <svg class="drop-down-version__icon"><use href="/local/templates/tsu/sprite/sprite.svg#no-image"></use></svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center__menu">
+                                    
+<form action="/search/index.php">
+	<div class="big__search">
+    	<div>
+    			        	<input type="search" name="q" placeholder="Поиск по сайту…" onfocus="this.placeholder=''">
+	        	    </div>
+	    <button name="s">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+	             viewBox="0 0 14 14">
+	            <g>
+	                <g>
+	                    <path fill=""
+	                          d="M8.8 5.2c0 2-1.6 3.6-3.6 3.6S1.6 7.2 1.6 5.2s1.6-3.6 3.6-3.6 3.6 1.6 3.6 3.6zM5.2 0a5.2 5.2 0 0 0 0 10.4 5.212 5.212 0 0 0 3.384-1.248l.216.216V10l4 4 1.2-1.2-4-4h-.632l-.216-.216A5.212 5.212 0 0 0 10.4 5.2 5.2 5.2 0 0 0 5.2 0z">
+	                    </path>
+	                </g>
+	            </g>
+	        </svg>
+	    </button>
+	</div>
+</form>                                    <div class="container flex">
+                                        <a href="/" class="header__logo"><img src="/local/templates/tsu/img/logo.png" alt="logo"></a>
+                                        <a href="https://tsutmb.ru/sveden/" class="info__center">
+Сведения об образовательной организации</a>                                        
+<ul class="center__link flex">
+	
+		
+					<li class="has-children">Институты			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/institutes/imfit/">Институт новых технологий и искусственного интеллекта</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/med/">Институт медицины и здоровьесбережения</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/law/">Институт права и национальной безопасности</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/history/">Институт образования и общественных наук</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/culture/">Институт креативных индустрий, экономики и предпринимательства</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/sport/">Факультет физической культуры и спорта</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/army/">Военный учебный центр</a></div>
+					
+		
+	
+		
+									<div><a href="/institutes/lyceum/">Державинский лицей</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Поступление			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="https://tsutmb.ru/postuplenie/">Выберите специальность/направление/профиль</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/pravila-priema/normativno_pravovoe_obespechenie_priema/">Правила приема / Программы вступительных испытаний</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/raspisanie-i-rezultatyi-vstupitelnyix-ispyitanij/">Расписание и результаты вступительных испытаний</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/postuplenie/#faq">Часто задаваемые вопросы</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/informacziya-o-postuplenii-dlya-licz-s-ovz/">Информация о поступлении для лиц с ОВЗ</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/perevod-iz-drugikh-obrazovatelnykh-uchrezhdeniy/">Перевод из других образовательных учреждений</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/institutes/army/postupayushchim/">Военный учебный центр</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/stoimost-obucheniya/">Стоимость обучения</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/spiski-postupayushchikh/">Списки поступающих (РЕЙТИНГ)</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/podannye-zayavleniya/">Информация о количестве поданных заявлений/списки лиц, подавших документы</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/hostels/">Общежитие</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/prikazy-o-zachislenii/">Приказы/Сведения о зачислении</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/internet-priemnaya/">Интернет-приемная</a></div>
+					
+		
+	
+		
+									<div><a href="/contacts/priemnaya/">Контакты</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/abiturientu/targeted_training/">Целевое обучение</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Школьникам			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/shkolnikam/derzhavinskiy-litsey-raspisanie/">Державинский лицей - расписание</a></div>
+					
+		
+	
+		
+									<div><a href="/shkolnikam/grafik-vstrech-s-abiturientami/">График Дней открытых дверей</a></div>
+					
+		
+	
+		
+									<div><a href="/shkolnikam/obshcherazvivayushchie-programmy/">Общеразвивающие программы</a></div>
+					
+		
+	
+		
+									<div><a href="/shkolnikam/olimpiady-i-konkursy/">Олимпиады и конкурсы</a></div>
+					
+		
+	
+		
+									<div><a href="/about/str/czentryi/tsentr-odaryennykh-detey/">Центр одарённых детей</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Студентам			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="https://tsutmb.ru/students/raspisanie/">Расписание</a></div>
+					
+		
+	
+		
+									<div><a href="/students/volontyorskoe_dvizhenie/">Волонтёрское движение</a></div>
+					
+		
+	
+		
+									<div><a href="/students/codex_studenta/">Кодекс студента</a></div>
+					
+		
+	
+		
+									<div><a href="/students/meryi_soczialnoj_podderzhki/">Меры социальной поддержки</a></div>
+					
+		
+	
+		
+									<div><a href="/students/mery-podderzhki-studencheskikh-semey/">Меры поддержки студенческих семей</a></div>
+					
+		
+	
+		
+									<div><a href="/students/sovet_obuchayushhixsya/">Совет обучающихся</a></div>
+					
+		
+	
+		
+									<div><a href="/students/obedinennyy-studencheskiy-nauchnyy-sovet/">Объединенный студенческий научный совет</a></div>
+					
+		
+	
+		
+									<div><a href="/students/studencheskij_otryad_oxranyi_pravoporyadka/">Студенческий отряд охраны правопорядка «Держава»</a></div>
+					
+		
+	
+		
+									<div><a href="/students/pravovoj_likbez/">Студенческая правовая консультация</a></div>
+					
+		
+	
+		
+									<div><a href="https://www.tsutmb.ru/rso/">Российские студенческие отряды</a></div>
+					
+		
+	
+		
+									<div><a href="/students/studencheskij_mfcz/">Студенческий МФЦ</a></div>
+					
+		
+	
+		
+									<div><a href="/students/pofilaktika-kori/">Профилактика кори</a></div>
+					
+		
+	
+		
+									<div><a href="/students/profilaktika-grippa-i-orvi/">Профилактика гриппа и ОРВИ</a></div>
+					
+		
+	
+		
+									<div><a href="/sveden/paid_edu/">Об утверждении стоимости обучения по каждой образовательной программе</a></div>
+					
+		
+	
+		
+									<div><a href="/students/olimpiady-i-konkursy/">Олимпиады и конкурсы</a></div>
+					
+		
+	
+		
+									<div><a href="/students/tsentr-psikhologicheskogo-soprovozhdeniya-obuchayushchikhsya/">Центр психологического сопровождения обучающихся</a></div>
+					
+		
+	
+		
+									<div><a href="https://vk.com/rabota_68?from=search">Центр карьеры Державинского университета</a></div>
+					
+		
+	
+		
+									<div><a href="https://tsutmb.ru/sveden/paid_edu/">Платные образовательные услуги</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Доп. образование			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/ido/czentryi/ido/">Институт дополнительного образования и профессиональной переподготовки</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/akkreditaczionno-simulyaczionnii-czentr/">Аккредитационно-симуляционный центр</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/czentr-ieus/">Центр дополнительных услуг Института экономики, управления и сервиса</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/inostrannyix-yazyikov/">Центр иностранных языков</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/fiesta/">Центр бальной хореографии «Фиеста – ТГУ»</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/fizkulturno-obrazovatelnii-czentr/">Спортклуб</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/bespilotnii-sistemi/">Центр компетенций в сфере БАС</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/birzhevogo-dela/">Центр Биржевого дела</a></div>
+					
+		
+	
+		
+									<div><a href="/ido/czentryi/contacts/">Контакты</a></div>
+					
+		
+	
+			</div></div>	</ul>
+                                    </div>
+                                </div>
+                                <div class="bottom__menu">
+                                    <div class="container">
+                                    	
+
+<ul class="center__link flex">
+	
+		
+					<li class="has-children">Университет			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="https://tsutmb.ru/sveden/">Сведения об образовательной организации</a></div>
+					
+		
+	
+		
+									<div><a href="/about/docs/">Документы и реквизиты</a></div>
+					
+		
+	
+		
+									<div><a href="/about/str/">Руководство и структура</a></div>
+					
+		
+	
+		
+									<div><a href="/about/rasp/">Расположение</a></div>
+					
+		
+	
+		
+									<div><a href="/about/miss/">Миссия университета</a></div>
+					
+		
+	
+		
+									<div><a href="/about/hist/">История Державинского университета</a></div>
+					
+		
+	
+		
+									<div><a href="/about/derzhavinskiy-segodnya/">Державинский сегодня</a></div>
+					
+		
+	
+		
+									<div><a href="/about/politika-nediskriminatsii/">Политика недискриминации</a></div>
+					
+		
+	
+		
+									<div><a href="/about/protivodejstvie_terrorizmu/">Противодействие терроризму</a></div>
+					
+		
+	
+		
+									<div><a href="/about/protivodejstvie_korrupczii/">Противодействие коррупции</a></div>
+					
+		
+	
+		
+									<div><a href="/about/gosuslugi/">Преимущества использования государственных услуг</a></div>
+					
+		
+	
+		
+									<div><a href="/about/obrashhenie_grazhdan/">Информация о федеральных государственных гражданских служащих Минюста России</a></div>
+					
+		
+	
+		
+									<div><a href="/about/obuchenie-sluzheniem/">Обучение служением</a></div>
+					
+		
+	
+		
+									<div><a href="/about/derzhavinskiy-pomogaet-uchastnikam-svo-i-ikh-semyam/">Державинский помогает участникам СВО и их семьям</a></div>
+					
+		
+	
+		
+									<div><a href="/about/telefonnyij_spravochnik/">Телефонный справочник</a></div>
+					
+		
+	
+		
+									<div><a href="/about/derzhavinskiy-v-reytingakh/">Державинский в рейтингах</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Образование			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="https://tsutmb.ru/link_lk.php">Электронная образовательная среда Moodle</a></div>
+					
+		
+	
+		
+									<div><a href="/sveden/education/">Образование</a></div>
+					
+		
+	
+		
+									<div><a href="/sveden/edustandarts/">Образовательные стандарты</a></div>
+					
+		
+	
+		
+									<div><a href="/obu4enie/norm_documents_umu/">Нормативные документы</a></div>
+					
+		
+	
+		
+									<div><a href="/obu4enie/otsenka_kachestva_obrazovaniya/">Оценка качества образования</a></div>
+					
+		
+	
+		
+									<div><a href="/obu4enie/poleznye_ssylki/">Полезные ссылки</a></div>
+					
+		
+	
+		
+									<div><a href="/obu4enie/innovatsionnaya_ploshchadka/">Федеральная инновационная площадка</a></div>
+					
+		
+	
+		
+									<div><a href="/obu4enie/kod_budushchego/">Код будущего</a></div>
+					
+		
+	
+		
+									<div><a href="/obu4enie/vypiski_po_perevodu_obuchayushchikhsya/">Выписки из протоколов заседания Комиссии по переводу обучающихся</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Наука			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/nayk/nauka_i_universitety/">Наука и университеты</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/novosti_nauki/">Новости</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/zasluzhennyie_deyateli_nauki/">Заслуженные деятели науки</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchnyie_shkolyi_i_napravleniya/">Научные школы и направления</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchnyie_czentryi_i_laboratorii/">Научные центры и лаборатории</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchnyie_zhurnalyi_i_izdaniya/">Научные журналы и издания</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/rezultatyi_nauchnoj_deyatelnosti/">Результаты научной деятельности</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchnyie_meropriyatiya/">Конференции</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/aspirantura_i_doktorantura/">Аспирантура и докторантура</a></div>
+					
+		
+	
+		
+									<div><a href="http://disser.tsutmb.ru/">Диссертационные советы</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchno_issledovatelskaya_rabota_studentov/">Научно-исследовательская работа студентов</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchno_texnicheskij_sovet/">Научно-технический совет</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/lokalnye_normativnye_dokumenty/">Локальные нормативные документы</a></div>
+					
+		
+	
+		
+									<div><a href="/nayk/nauchnye_konkursy_i_granty/">Научные конкурсы и гранты</a></div>
+					
+		
+	
+					</div></div></li>		
+									<li><a href="/news/">Новости</a></li>
+					
+		
+	
+		
+					<li class="has-children">Анонсы			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/ads/">Объявления</a></div>
+					
+		
+	
+		
+									<div><a href="/events/">Мероприятия</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">International			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/international/mezhdunarodnaya_deyatelnost_tgu_imeni_g.r._derzhavina/">Международная деятельность Державинcкого</a></div>
+					
+		
+	
+		
+									<div><a href="/international/mezhdunarodnoe_sotrudnichestvo/">Международное сотрудничество</a></div>
+					
+		
+	
+		
+									<div><a href="/international/akademicheskaya_mobilnost/">Академическая мобильность</a></div>
+					
+		
+	
+		
+									<div><a href="/international/projects/">Образовательные и социокультурные проекты</a></div>
+					
+		
+	
+		
+									<div><a href="/international/silk-road/">Институт Нового Шелкового пути</a></div>
+					
+		
+	
+		
+									<div><a href="/international/centri/">Культурно-образовательные центры</a></div>
+					
+		
+	
+		
+									<div><a href="/international/evropejskoe_prilozhenie_k_diplomu/">Европейское приложение к диплому</a></div>
+					
+		
+	
+		
+									<div><a href="/international/internatioanal_students_in_tsu/">Обучение иностранных студентов</a></div>
+					
+		
+	
+		
+									<div><a href="/about/str/uprav/dep_ms/lokalnyij_czentr_testirovaniya_tgu/">Локальный центр тестирования Державинского</a></div>
+					
+		
+	
+		
+									<div><a href="/international/kontaktyi/">Контакты</a></div>
+					
+		
+	
+		
+									<div><a href="/international/vopros_%E2%80%93_otvet/">Вопрос – ответ</a></div>
+					
+		
+	
+					</div></div></li>		
+					<li class="has-children">Приоритет 2030			    <div class="menu__sub">
+			        <a class="menu-close" href="#"></a>
+			        <div class="submenu flex">
+		
+		
+	
+		
+									<div><a href="/priority2030/">Приоритет 2030</a></div>
+					
+		
+	
+		
+									<div><a href="/priority2030/tsifrovaya-kafedra/">Цифровая кафедра</a></div>
+					
+		
+	
+					</div></div></li>		
+									<li><a href="/contacts/">Контакты</a></li>
+					
+		
+	
+	</ul>
+                                    </div>
+                                </div>
+                            	<ul class="menu__list__mob flex">
+	<li>
+	    <a href="tel:+78002004465" class="menu__link tel">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+	            <g>
+	                <g>
+	                    <g>
+	                        <path fill="#3834a4"
+	                              d="M2.948 1.371l.01.01 1.284 1.23c.075.078.142.23.142.43 0 .203-.07.357-.145.434l-.856.857a.6.6 0 0 0-.17.508c.132.918.69 1.833 1.385 2.534.695.7 1.61 1.272 2.547 1.405a.6.6 0 0 0 .51-.17l.855-.858c.076-.076.23-.145.43-.145.202 0 .355.07.431.145l1.284 1.286c.076.077.145.231.145.434 0 .203-.07.357-.146.433-.698.7-1.623.896-1.927.896-.826 0-1.416-.053-2.098-.372-.706-.33-1.556-.968-2.824-2.238-1.25-1.253-1.892-2.211-2.227-2.978-.33-.754-.378-1.36-.378-1.956 0-.376.046-.665.166-.943.12-.284.335-.597.728-.991.066-.066.205-.13.404-.121a.69.69 0 0 1 .45.17zM2.544.001c-.439-.016-.938.11-1.3.473-.461.463-.782.9-.982 1.367C.061 2.312 0 2.774 0 3.256c0 .688.059 1.476.478 2.436.414.948 1.162 2.026 2.478 3.345 1.298 1.301 2.266 2.058 3.164 2.478.921.43 1.72.485 2.607.485.572 0 1.82-.289 2.777-1.248.352-.352.496-.84.496-1.281 0-.44-.144-.929-.496-1.281L10.22 6.904c-.352-.353-.84-.498-1.28-.498-.44 0-.929.145-1.28.498l-.626.627c-.526-.15-1.095-.508-1.585-1.002s-.84-1.063-.988-1.58l.626-.627c.352-.352.496-.84.496-1.28 0-.441-.144-.93-.496-1.282l-.01-.01L3.792.519c-.34-.338-.81-.5-1.248-.517z"/>
+	                    </g>
+	                </g>
+	            </g>
+	        </svg>
+	        8 (800) 200-44-65
+	    </a>
+	</li>
+	<li>
+	    <a href="tel:+74752723434" class="menu__link tel">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+	            <g>
+	                <g>
+	                    <g>
+	                        <path fill="#3834a4"
+	                              d="M2.948 1.371l.01.01 1.284 1.23c.075.078.142.23.142.43 0 .203-.07.357-.145.434l-.856.857a.6.6 0 0 0-.17.508c.132.918.69 1.833 1.385 2.534.695.7 1.61 1.272 2.547 1.405a.6.6 0 0 0 .51-.17l.855-.858c.076-.076.23-.145.43-.145.202 0 .355.07.431.145l1.284 1.286c.076.077.145.231.145.434 0 .203-.07.357-.146.433-.698.7-1.623.896-1.927.896-.826 0-1.416-.053-2.098-.372-.706-.33-1.556-.968-2.824-2.238-1.25-1.253-1.892-2.211-2.227-2.978-.33-.754-.378-1.36-.378-1.956 0-.376.046-.665.166-.943.12-.284.335-.597.728-.991.066-.066.205-.13.404-.121a.69.69 0 0 1 .45.17zM2.544.001c-.439-.016-.938.11-1.3.473-.461.463-.782.9-.982 1.367C.061 2.312 0 2.774 0 3.256c0 .688.059 1.476.478 2.436.414.948 1.162 2.026 2.478 3.345 1.298 1.301 2.266 2.058 3.164 2.478.921.43 1.72.485 2.607.485.572 0 1.82-.289 2.777-1.248.352-.352.496-.84.496-1.281 0-.44-.144-.929-.496-1.281L10.22 6.904c-.352-.353-.84-.498-1.28-.498-.44 0-.929.145-1.28.498l-.626.627c-.526-.15-1.095-.508-1.585-1.002s-.84-1.063-.988-1.58l.626-.627c.352-.352.496-.84.496-1.28 0-.441-.144-.93-.496-1.282l-.01-.01L3.792.519c-.34-.338-.81-.5-1.248-.517z"/>
+	                    </g>
+	                </g>
+	            </g>
+	        </svg>
+	        8 (4752) 72-34-34
+	    </a>
+	</li>
+	<li>
+	    <a href="mailto:post@tsutmb.ru" class="menu__link mail">
+	        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11">
+	            <g>
+	                <g>
+	                    <g>
+	                        <path fill="#3834a4"
+	                              d="M7.295 4.25L2.837 1.46h8.916zM7.3 5.97l5.84-3.65v5.71a.73.73 0 0 1-.73.73H2.19a.73.73 0 0 1-.73-.73V2.32zM2.19 0C.98 0 0 .98 0 2.19v5.84c0 1.21.98 2.19 2.19 2.19h10.22c1.21 0 2.19-.98 2.19-2.19V2.19C14.6.98 13.62 0 12.41 0z"/>
+	                    </g>
+	                </g>
+	            </g>
+	        </svg>
+	        post@tsutmb.ru
+	    </a>
+	</li>
+</ul>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="center__menu fade__menu">
+            <div class="container flex">
+                <a href="/" class="header__logo"><img src="/local/templates/tsu/img/logo.png" alt="logo"></a>
+                <a href="https://tsutmb.ru/sveden/" class="info__center">
+Сведения об образовательной организации</a>                
+
+			<ul class="center__link flex">
+							<li><a href="/abiturientu/">Поступление		            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+		                <g>
+		                    <g transform="rotate(-90 4.5 2.5)">
+		                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+		                    </g>
+		                </g>
+		            </svg>
+	            </a>
+	            <div class="wrapper__submenu ">
+	                <div class="submenu flex">
+	                		                		<div class="sub__left">
+	                				                				<div><a href="https://tsutmb.ru/postuplenie/">Выберите специальность/направление/профиль</a></div>
+	                				                				<div><a href="https://tsutmb.ru/abiturientu/pravila-priema/normativno_pravovoe_obespechenie_priema/">Правила приема / Программы вступительных испытаний</a></div>
+	                				                				<div><a href="https://tsutmb.ru/abiturientu/raspisanie-i-rezultatyi-vstupitelnyix-ispyitanij/">Расписание и результаты вступительных испытаний</a></div>
+	                				                				<div><a href="https://tsutmb.ru/postuplenie/#faq">Часто задаваемые вопросы</a></div>
+	                				                				<div><a href="https://tsutmb.ru/abiturientu/informacziya-o-postuplenii-dlya-licz-s-ovz/">Информация о поступлении для лиц с ОВЗ</a></div>
+	                				                				<div><a href="https://tsutmb.ru/abiturientu/perevod-iz-drugikh-obrazovatelnykh-uchrezhdeniy/">Перевод из других образовательных учреждений</a></div>
+	                				                				<div><a href="https://tsutmb.ru/institutes/army/postupayushchim/">Военный учебный центр</a></div>
+	                				                		</div>
+	                		<div class="sub__right">
+	                																					<div><a href="https://tsutmb.ru/abiturientu/stoimost-obucheniya/">Стоимость обучения</a></div>
+										                																					<div><a href="https://tsutmb.ru/abiturientu/spiski-postupayushchikh/">Списки поступающих (РЕЙТИНГ)</a></div>
+										                																					<div><a href="https://tsutmb.ru/abiturientu/podannye-zayavleniya/">Информация о количестве поданных заявлений/списки лиц, подавших документы</a></div>
+										                																					<div><a href="https://tsutmb.ru/abiturientu/hostels/">Общежитие</a></div>
+										                																					<div><a href="https://tsutmb.ru/abiturientu/prikazy-o-zachislenii/">Приказы/Сведения о зачислении</a></div>
+										                																					<div><a href="https://tsutmb.ru/abiturientu/internet-priemnaya/">Интернет-приемная</a></div>
+										                																					<div><a href="/contacts/priemnaya/">Контакты</a></div>
+										                																					<div><a href="https://tsutmb.ru/abiturientu/targeted_training/">Целевое обучение</a></div>
+										                				                		</div>
+	                		                </div>
+	            </div>
+	        </li>
+	    						<li><a href="/shkolnikam/">Школьникам		            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+		                <g>
+		                    <g transform="rotate(-90 4.5 2.5)">
+		                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+		                    </g>
+		                </g>
+		            </svg>
+	            </a>
+	            <div class="wrapper__submenu ">
+	                <div class="submenu flex">
+	                								<div>
+              						                				<div><a href="/shkolnikam/derzhavinskiy-litsey-raspisanie/">Державинский лицей - расписание</a></div>
+	                				                				<div><a href="/shkolnikam/grafik-vstrech-s-abiturientami/">График Дней открытых дверей</a></div>
+	                				                				<div><a href="/shkolnikam/obshcherazvivayushchie-programmy/">Общеразвивающие программы</a></div>
+	                				                				<div><a href="/shkolnikam/olimpiady-i-konkursy/">Олимпиады и конкурсы</a></div>
+	                				                				<div><a href="/about/str/czentryi/tsentr-odaryennykh-detey/">Центр одарённых детей</a></div>
+	                				                		</div>
+	                		                </div>
+	            </div>
+	        </li>
+	    						<li><a href="/students/">Студентам		            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+		                <g>
+		                    <g transform="rotate(-90 4.5 2.5)">
+		                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+		                    </g>
+		                </g>
+		            </svg>
+	            </a>
+	            <div class="wrapper__submenu submenu-right-pos">
+	                <div class="submenu flex">
+	                		                		<div class="sub__left">
+	                				                				<div><a href="https://tsutmb.ru/students/raspisanie/">Расписание</a></div>
+	                				                				<div><a href="/students/volontyorskoe_dvizhenie/">Волонтёрское движение</a></div>
+	                				                				<div><a href="/students/codex_studenta/">Кодекс студента</a></div>
+	                				                				<div><a href="/students/meryi_soczialnoj_podderzhki/">Меры социальной поддержки</a></div>
+	                				                				<div><a href="/students/mery-podderzhki-studencheskikh-semey/">Меры поддержки студенческих семей</a></div>
+	                				                				<div><a href="/students/sovet_obuchayushhixsya/">Совет обучающихся</a></div>
+	                				                				<div><a href="/students/obedinennyy-studencheskiy-nauchnyy-sovet/">Объединенный студенческий научный совет</a></div>
+	                				                				<div><a href="/students/studencheskij_otryad_oxranyi_pravoporyadka/">Студенческий отряд охраны правопорядка «Держава»</a></div>
+	                				                				<div><a href="/students/pravovoj_likbez/">Студенческая правовая консультация</a></div>
+	                				                				<div><a href="https://www.tsutmb.ru/rso/">Российские студенческие отряды</a></div>
+	                				                		</div>
+	                		<div class="sub__right">
+	                																					<div><a href="/students/studencheskij_mfcz/">Студенческий МФЦ</a></div>
+										                																					<div><a href="/students/pofilaktika-kori/">Профилактика кори</a></div>
+										                																					<div><a href="/students/profilaktika-grippa-i-orvi/">Профилактика гриппа и ОРВИ</a></div>
+										                																					<div><a href="/sveden/paid_edu/">Об утверждении стоимости обучения по каждой образовательной программе</a></div>
+										                																					<div><a href="/students/olimpiady-i-konkursy/">Олимпиады и конкурсы</a></div>
+										                																					<div><a href="/students/tsentr-psikhologicheskogo-soprovozhdeniya-obuchayushchikhsya/">Центр психологического сопровождения обучающихся</a></div>
+										                																					<div><a href="https://vk.com/rabota_68?from=search">Центр карьеры Державинского университета</a></div>
+										                																					<div><a href="https://tsutmb.ru/sveden/paid_edu/">Платные образовательные услуги</a></div>
+										                				                		</div>
+	                		                </div>
+	            </div>
+	        </li>
+	    						<li><a href="/ido/">Доп. образование		            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+		                <g>
+		                    <g transform="rotate(-90 4.5 2.5)">
+		                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+		                    </g>
+		                </g>
+		            </svg>
+	            </a>
+	            <div class="wrapper__submenu submenu-right-pos">
+	                <div class="submenu flex">
+	                								<div>
+              						                				<div><a href="/ido/czentryi/ido/">Институт дополнительного образования и профессиональной переподготовки</a></div>
+	                				                				<div><a href="/ido/czentryi/akkreditaczionno-simulyaczionnii-czentr/">Аккредитационно-симуляционный центр</a></div>
+	                				                				<div><a href="/ido/czentryi/czentr-ieus/">Центр дополнительных услуг Института экономики, управления и сервиса</a></div>
+	                				                				<div><a href="/ido/czentryi/inostrannyix-yazyikov/">Центр иностранных языков</a></div>
+	                				                				<div><a href="/ido/czentryi/fiesta/">Центр бальной хореографии «Фиеста – ТГУ»</a></div>
+	                				                				<div><a href="/ido/czentryi/fizkulturno-obrazovatelnii-czentr/">Спортклуб</a></div>
+	                				                				<div><a href="/ido/czentryi/bespilotnii-sistemi/">Центр компетенций в сфере БАС</a></div>
+	                				                				<div><a href="/ido/czentryi/birzhevogo-dela/">Центр Биржевого дела</a></div>
+	                				                				<div><a href="/ido/czentryi/contacts/">Контакты</a></div>
+	                				                		</div>
+	                		                </div>
+	            </div>
+	        </li>
+	    						<li><a href=""></a></li>
+	    				</ul>
+	            </div>
+        </div>
+        
+
+<div class="bottom__menu fade__menu">
+    <div class="container">
+		<ul class="flex">
+												<li>
+						<a
+													 href="/about/">Университет				            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+				                <g>
+				                    <g transform="rotate(-90 4.5 2.5)">
+				                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+				                    </g>
+				                </g>
+				            </svg>
+			            </a>
+			            <div class="wrapper__submenu ">
+			                <div class="submenu flex">
+			                				                		<div class="sub__left">
+			                						                				<div><a href="https://tsutmb.ru/sveden/">Сведения об образовательной организации</a></div>
+			                						                				<div><a href="/about/docs/">Документы и реквизиты</a></div>
+			                						                				<div><a href="/about/str/">Руководство и структура</a></div>
+			                						                				<div><a href="/about/rasp/">Расположение</a></div>
+			                						                				<div><a href="/about/miss/">Миссия университета</a></div>
+			                						                				<div><a href="/about/hist/">История Державинского университета</a></div>
+			                						                				<div><a href="/about/derzhavinskiy-segodnya/">Державинский сегодня</a></div>
+			                						                				<div><a href="/about/politika-nediskriminatsii/">Политика недискриминации</a></div>
+			                						                				<div><a href="/about/derzhavinskiy-v-reytingakh/">Державинский в рейтингах</a></div>
+			                						                		</div>
+			                		<div class="sub__right">
+			                						                				<div>
+												<a href="/about/protivodejstvie_terrorizmu/">Противодействие терроризму</a>
+											</div>
+			                						                				<div>
+												<a href="/about/protivodejstvie_korrupczii/">Противодействие коррупции</a>
+											</div>
+			                						                				<div>
+												<a href="/about/gosuslugi/">Преимущества использования государственных услуг</a>
+											</div>
+			                						                				<div>
+												<a href="/about/obrashhenie_grazhdan/">Информация о федеральных государственных гражданских служащих Минюста России</a>
+											</div>
+			                						                				<div>
+												<a href="/about/obuchenie-sluzheniem/">Обучение служением</a>
+											</div>
+			                						                				<div>
+												<a href="/about/derzhavinskiy-pomogaet-uchastnikam-svo-i-ikh-semyam/">Державинский помогает участникам СВО и их семьям</a>
+											</div>
+			                						                				<div>
+												<a href="/about/telefonnyij_spravochnik/">Телефонный справочник</a>
+											</div>
+			                						                		</div>
+			                				                </div>
+			            </div>
+			        </li>
+			    												<li>
+						<a
+													 href="/obu4enie/">Образование				            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+				                <g>
+				                    <g transform="rotate(-90 4.5 2.5)">
+				                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+				                    </g>
+				                </g>
+				            </svg>
+			            </a>
+			            <div class="wrapper__submenu ">
+			                <div class="submenu flex">
+			                				                		<div>
+			                						                				<div><a href="https://tsutmb.ru/link_lk.php">Электронная образовательная среда Moodle</a></div>
+			                						                				<div><a href="/sveden/education/">Образование</a></div>
+			                						                				<div><a href="/sveden/edustandarts/">Образовательные стандарты</a></div>
+			                						                				<div><a href="/obu4enie/norm_documents_umu/">Нормативные документы</a></div>
+			                						                				<div><a href="/obu4enie/otsenka_kachestva_obrazovaniya/">Оценка качества образования</a></div>
+			                						                				<div><a href="/obu4enie/poleznye_ssylki/">Полезные ссылки</a></div>
+			                						                				<div><a href="/obu4enie/innovatsionnaya_ploshchadka/">Федеральная инновационная площадка</a></div>
+			                						                				<div><a href="/obu4enie/kod_budushchego/">Код будущего</a></div>
+			                						                				<div><a href="/obu4enie/vypiski_po_perevodu_obuchayushchikhsya/">Выписки из протоколов заседания Комиссии по переводу обучающихся</a></div>
+			                						                		</div>
+			                				                </div>
+			            </div>
+			        </li>
+			    												<li>
+						<a
+													 href="/nayk/">Наука				            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+				                <g>
+				                    <g transform="rotate(-90 4.5 2.5)">
+				                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+				                    </g>
+				                </g>
+				            </svg>
+			            </a>
+			            <div class="wrapper__submenu ">
+			                <div class="submenu flex">
+			                				                		<div class="sub__left">
+			                						                				<div><a href="/nayk/nauka_i_universitety/">Наука и университеты</a></div>
+			                						                				<div><a href="/nayk/novosti_nauki/">Новости</a></div>
+			                						                				<div><a href="/nayk/zasluzhennyie_deyateli_nauki/">Заслуженные деятели науки</a></div>
+			                						                				<div><a href="/nayk/nauchnyie_shkolyi_i_napravleniya/">Научные школы и направления</a></div>
+			                						                				<div><a href="/nayk/nauchnyie_czentryi_i_laboratorii/">Научные центры и лаборатории</a></div>
+			                						                				<div><a href="/nayk/nauchnyie_zhurnalyi_i_izdaniya/">Научные журналы и издания</a></div>
+			                						                				<div><a href="/nayk/rezultatyi_nauchnoj_deyatelnosti/">Результаты научной деятельности</a></div>
+			                						                		</div>
+			                		<div class="sub__right">
+			                						                				<div>
+												<a href="/nayk/nauchnyie_meropriyatiya/">Конференции</a>
+											</div>
+			                						                				<div>
+												<a href="/nayk/aspirantura_i_doktorantura/">Аспирантура и докторантура</a>
+											</div>
+			                						                				<div>
+												<a href="http://disser.tsutmb.ru/">Диссертационные советы</a>
+											</div>
+			                						                				<div>
+												<a href="/nayk/nauchno_issledovatelskaya_rabota_studentov/">Научно-исследовательская работа студентов</a>
+											</div>
+			                						                				<div>
+												<a href="/nayk/nauchno_texnicheskij_sovet/">Научно-технический совет</a>
+											</div>
+			                						                				<div>
+												<a href="/nayk/lokalnye_normativnye_dokumenty/">Локальные нормативные документы</a>
+											</div>
+			                						                				<div>
+												<a href="/nayk/nauchnye_konkursy_i_granty/">Научные конкурсы и гранты</a>
+											</div>
+			                						                		</div>
+			                				                </div>
+			            </div>
+			        </li>
+			    										    	<li><a href="/news/">Новости</a></li>
+			    												<li>
+						<a
+						 style="pointer-events: none;"							 href="/announcements/">Анонсы				            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+				                <g>
+				                    <g transform="rotate(-90 4.5 2.5)">
+				                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+				                    </g>
+				                </g>
+				            </svg>
+			            </a>
+			            <div class="wrapper__submenu ">
+			                <div class="submenu flex">
+			                				                		<div>
+			                						                				<div><a href="/ads/">Объявления</a></div>
+			                						                				<div><a href="/events/">Мероприятия</a></div>
+			                						                		</div>
+			                				                </div>
+			            </div>
+			        </li>
+			    												<li>
+						<a
+													 href="/international/">International				            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+				                <g>
+				                    <g transform="rotate(-90 4.5 2.5)">
+				                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+				                    </g>
+				                </g>
+				            </svg>
+			            </a>
+			            <div class="wrapper__submenu submenu-right-pos">
+			                <div class="submenu flex">
+			                				                		<div class="sub__left">
+			                						                				<div><a href="/international/mezhdunarodnaya_deyatelnost_tgu_imeni_g.r._derzhavina/">Международная деятельность Державинcкого</a></div>
+			                						                				<div><a href="/international/mezhdunarodnoe_sotrudnichestvo/">Международное сотрудничество</a></div>
+			                						                				<div><a href="/international/akademicheskaya_mobilnost/">Академическая мобильность</a></div>
+			                						                				<div><a href="/international/projects/">Образовательные и социокультурные проекты</a></div>
+			                						                				<div><a href="/international/silk-road/">Институт Нового Шелкового пути</a></div>
+			                						                				<div><a href="/international/centri/">Культурно-образовательные центры</a></div>
+			                						                		</div>
+			                		<div class="sub__right">
+			                						                				<div>
+												<a href="/international/evropejskoe_prilozhenie_k_diplomu/">Европейское приложение к диплому</a>
+											</div>
+			                						                				<div>
+												<a href="/international/internatioanal_students_in_tsu/">Обучение иностранных студентов</a>
+											</div>
+			                						                				<div>
+												<a href="/about/str/uprav/dep_ms/lokalnyij_czentr_testirovaniya_tgu/">Локальный центр тестирования Державинского</a>
+											</div>
+			                						                				<div>
+												<a href="/international/kontaktyi/">Контакты</a>
+											</div>
+			                						                				<div>
+												<a href="/international/vopros_%E2%80%93_otvet/">Вопрос – ответ</a>
+											</div>
+			                						                		</div>
+			                				                </div>
+			            </div>
+			        </li>
+			    												<li>
+						<a
+													 href="/priority2030/">Приоритет 2030				            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5">
+				                <g>
+				                    <g transform="rotate(-90 4.5 2.5)">
+				                        <path fill="#3834a4" d="M7 7L2 2.5 7-2"/>
+				                    </g>
+				                </g>
+				            </svg>
+			            </a>
+			            <div class="wrapper__submenu ">
+			                <div class="submenu flex">
+			                				                		<div>
+			                						                				<div><a href="/priority2030/">Приоритет 2030</a></div>
+			                						                				<div><a href="/priority2030/tsifrovaya-kafedra/">Цифровая кафедра</a></div>
+			                						                		</div>
+			                				                </div>
+			            </div>
+			        </li>
+			    										    	<li><a href="/contacts/">Контакты</a></li>
+			    					</ul>
+	</div>
+</div>
+    </div>
+</header>
+<div class="wrapper">
+        <div class="container"><div class="breadcrumbs" ><ul class="flex-row flex"><li><a href="/">Главная</a></li><li><a href="/students/">Студентам</a></li><li>Расписание</li></ul></div></div><div class="container">
+	<div class="wrapper__preparations">
+		<div class="wrapper__title flex">
+			<h1>Расписание</h1>
+		</div>
+		<div class="preparations__grid">
+ <a href="https://tsutmb.ru/institutes/imfit/obuchenie/raspisanie/" class="preparations__card ">
+			<div class="text">
+				 Институт новых технологий и искусственного интеллекта
+			</div>
+            <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="138" height="156" viewbox="null">
+                <defs>
+                    <clipPath id="s3tra">
+                        <path fill="#fff" d="M138 156V1H77v34.125h21.928V156z"></path>
+                    </clipPath>
+                    <clipPath id="s3trb">
+                        <path fill="#fff" d="M37.5 156c11.322 0 20.5-9.178 20.5-20.5S48.822 115 37.5 115 17 124.178 17 135.5 26.178 156 37.5 156z"></path>
+                    </clipPath>
+                    <clipPath id="s3trc">
+                        <path fill="#fff" d="M52 61h11v15h15v11H63v15H52V87H37V76h15z"></path>
+                    </clipPath>
+                    <clipPath id="s3trd">
+                        <path fill="#fff" d="M53.117 2.58H64.85L38.4 24.922h17.505L5.85 61.58l26.377-26.784h-18.96z"></path>
+                    </clipPath>
+                </defs>
+                <g>
+                    <g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M138 156v0V1v0H77v34.125h21.928V156z" clip-path="url(&quot;#s3tra&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="inherit" d="M32.5 151c11.322 0 20.5-9.178 20.5-20.5S43.822 110 32.5 110 12 119.178 12 130.5 21.178 151 32.5 151z"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M37.5 156c11.322 0 20.5-9.178 20.5-20.5S48.822 115 37.5 115 17 124.178 17 135.5 26.178 156 37.5 156z" clip-path="url(&quot;#s3trb&quot;)"></path>
+                        </g>
+                        <g transform="rotate(-315 57.5 81.5)">
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M52 61h11v15h15v11H63v15H52V87H37V76h15z" clip-path="url(&quot;#s3trc&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="inherit" d="M48.117.58H59.85L33.4 22.922h17.505L.85 59.58l26.377-26.784H8.267z"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M53.117 2.58v0H64.85v0L38.4 24.922v0h17.505v0L5.85 61.58v0l26.377-26.784v0h-18.96v0z" clip-path="url(&quot;#s3trd&quot;)"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+ </a>
+			<!---
+            <a href="https://tsutmb.ru/institutes/iest/obuchenie/raspisanie/" class="preparations__card " id="bx_1847241719_64">
+                <div class="text">
+                    Институт естествознания
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="152" height="174"
+                     viewBox="0 0 152 174">
+                    <defs>
+                        <clipPath id="u72na">
+                            <path fill="#fff"
+                                  d="M67 152c37.003 0 67-29.997 67-67s-29.997-67-67-67S0 47.997 0 85s29.997 67 67 67z"></path>
+                        </clipPath>
+                        <clipPath id="u72nb">
+                            <path fill="#fff"
+                                  d="M134 36c9.941 0 18-8.059 18-18s-8.059-18-18-18-18 8.059-18 18 8.059 18 18 18z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g clip-path="url(#clip-705B8183-8082-4896-84F5-1137D0660425)">
+                            <g>
+                                <g>
+                                    <path fill="inherit"
+                                          d="M81 174c37.003 0 67-29.997 67-67s-29.997-67-67-67-67 29.997-67 67 29.997 67 67 67z"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M67 152c37.003 0 67-29.997 67-67s-29.997-67-67-67S0 47.997 0 85s29.997 67 67 67z"
+                                          clip-path="url(&quot;#u72na&quot;)"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M134 36c9.941 0 18-8.059 18-18s-8.059-18-18-18-18 8.059-18 18 8.059 18 18 18z"
+                                          clip-path="url(&quot;#u72nb&quot;)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+---> <a href="https://tsutmb.ru/institutes/med/obuchenie/raspisanie/" class="preparations__card " id="bx_1847241719_66">
+			<div class="text">
+				 Институт медицины и здоровьесбережения
+			</div>
+ <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="190" height="193" viewbox="null"> <defs> <clipPath id="391va"> <path fill="#fff" d="M20.5 41C31.822 41 41 31.822 41 20.5S31.822 0 20.5 0 0 9.178 0 20.5 9.178 41 20.5 41z"></path> </clipPath> <clipPath id="391vb"> <path fill="#fff" d="M169.5 185c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path> </clipPath> <clipPath id="391vc"> <path fill="#fff" d="M74 21h42v54h54v42h-54v54H74v-54H20V75h54z"></path> </clipPath> </defs> <g> <g> <g> <path fill="inherit" d="M20.5 49C31.822 49 41 39.822 41 28.5S31.822 8 20.5 8 0 17.178 0 28.5 9.178 49 20.5 49z"></path> </g> <g> <path fill="inherit" d="M169.5 193c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path> </g> <g> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M20.5 41C31.822 41 41 31.822 41 20.5S31.822 0 20.5 0 0 9.178 0 20.5 9.178 41 20.5 41z" clip-path="url(&quot;#391va&quot;)"></path> </g> <g> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M169.5 185c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z" clip-path="url(&quot;#391vb&quot;)"></path> </g> <g> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M74 21h42v54h54v42h-54v54H74v-54H20V75h54z" clip-path="url(&quot;#391vc&quot;)"></path> </g> </g> </g> </svg> </a> <a href="https://tsutmb.ru/institutes/law/obuchenie/raspisanie/" class="preparations__card " id="bx_1847241719_68">
+			<div class="text">
+				 Институт права и национальной безопасности
+			</div>
+ <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="148" height="170" viewbox="null"> <defs> <clipPath id="128ba"> <path fill="#fff" d="M147.965 36.234c0-6.646-3.984-11.135-10.684-11.984-1.269-.176-2.573-.318-3.843-.46-3.772-.459-7.334-.848-10.754-1.59-13.363-2.934-26.303-8.979-40.618-19.018C79.704 1.52 77.095 0 74.027 0c-3.032 0-5.641 1.52-8.003 3.146C46.878 16.332 29.637 23.048 11.796 24.18 4.074 24.675.02 29.058.02 36.87v14.07C-.016 63.914-.016 77.31.125 90.532c.036 4.914.67 10.004 1.834 15.166 2.75 12.09 9.026 22.977 19.18 33.264 12.658 12.833 28.525 22.73 48.481 30.26 1.34.495 2.786.778 4.302.778 1.833 0 3.667-.389 5.288-1.096 1.093-.495 2.222-.954 3.315-1.414l.106-.035c4.83-2.086 9.801-4.242 14.667-6.787 16.22-8.59 28.49-18.736 37.515-31.038 8.11-11.03 12.306-22.13 12.8-33.937.105-2.262.175-4.666.21-7.388L148 66.46V57.586c0-7.141 0-14.246-.035-21.352z"></path> </clipPath> <clipPath id="128bb"> <path fill="#fff" d="M74.5 132c11.322 0 20.5-9.178 20.5-20.5S85.822 91 74.5 91 54 100.178 54 111.5 63.178 132 74.5 132z"></path> </clipPath> <clipPath id="128bc"> <path fill="#fff" d="M74.5 73C85.822 73 95 63.822 95 52.5S85.822 32 74.5 32 54 41.178 54 52.5 63.178 73 74.5 73z"></path> </clipPath> </defs> <g> <g> <g> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M147.965 36.234c0-6.646-3.984-11.135-10.684-11.984-1.269-.176-2.573-.318-3.843-.46-3.772-.459-7.334-.848-10.754-1.59-13.363-2.934-26.303-8.979-40.618-19.018C79.704 1.52 77.095 0 74.027 0c-3.032 0-5.641 1.52-8.003 3.146C46.878 16.332 29.637 23.048 11.796 24.18 4.074 24.675.02 29.058.02 36.87v14.07C-.016 63.914-.016 77.31.125 90.532c.036 4.914.67 10.004 1.834 15.166 2.75 12.09 9.026 22.977 19.18 33.264 12.658 12.833 28.525 22.73 48.481 30.26 1.34.495 2.786.778 4.302.778 1.833 0 3.667-.389 5.288-1.096 1.093-.495 2.222-.954 3.315-1.414l.106-.035c4.83-2.086 9.801-4.242 14.667-6.787 16.22-8.59 28.49-18.736 37.515-31.038 8.11-11.03 12.306-22.13 12.8-33.937.105-2.262.175-4.666.21-7.388L148 66.46V57.586c0-7.141 0-14.246-.035-21.352z" clip-path="url(&quot;#128ba&quot;)"></path> </g> <g> <path fill="inherit" d="M74.5 140c11.322 0 20.5-9.178 20.5-20.5S85.822 99 74.5 99 54 108.178 54 119.5 63.178 140 74.5 140z"></path> </g> <g> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M74.5 132c11.322 0 20.5-9.178 20.5-20.5S85.822 91 74.5 91 54 100.178 54 111.5 63.178 132 74.5 132z" clip-path="url(&quot;#128bb&quot;)"></path> </g> <g> <path fill="inherit" d="M74.5 81C85.822 81 95 71.822 95 60.5S85.822 40 74.5 40 54 49.178 54 60.5 63.178 81 74.5 81z"></path> </g> <g> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M74.5 73C85.822 73 95 63.822 95 52.5S85.822 32 74.5 32 54 41.178 54 52.5 63.178 73 74.5 73z" clip-path="url(&quot;#128bc&quot;)"></path> </g> </g> </g> </svg> </a>
+			<!---
+            <a href="https://tsutmb.ru/institutes/economic/obuchenie/raspisanie/" class="preparations__card " id="bx_1847241719_69">
+                <div class="text">
+                    Институт экономики, управления и сервиса
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="181" height="179"
+                     viewBox="0 0 181 179">
+                    <defs>
+                        <clipPath id="qus0a">
+                            <path fill="#fff"
+                                  d="M80.442 29.065l-3.493-.042a12.548 12.548 0 0 1-.323-.01A18.594 18.594 0 0 0 76 29C34.094 29 0 62.645 0 104c0 19.096 7.17 37.058 20.261 50.965l-.06.059 2.545 2.467 2.5 2.424.057-.057C39.267 172.227 57.135 179 76 179c41.907 0 76-33.645 76-75v-3.49H80.442z"></path>
+                        </clipPath>
+                        <clipPath id="qus0b">
+                            <path fill="#fff"
+                                  d="M149.946 31.16C135.74 17.14 116.792 9.287 96.596 9.044L93 9v78h79v-3.466c0-19.74-7.832-38.34-22.054-52.373z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M80.442 29.065v0l-3.493-.042a12.548 12.548 0 0 1-.323-.01A18.594 18.594 0 0 0 76 29C34.094 29 0 62.645 0 104c0 19.096 7.17 37.058 20.261 50.965l-.06.059v0l2.545 2.467v0l2.5 2.424v0l.057-.057C39.267 172.227 57.135 179 76 179c41.907 0 76-33.645 76-75v-3.49 0H80.442v0z"
+                                          clip-path="url(&quot;#qus0a&quot;)"></path>
+                                </g>
+                                <g>
+                                    <path fill="inherit"
+                                          d="M158.946 22.16C144.74 8.14 125.792.287 105.596.044L102 0v78h79v-3.466c0-19.74-7.832-38.34-22.054-52.373z"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M149.946 31.16C135.74 17.14 116.792 9.287 96.596 9.044L93 9v78h79v0-3.466c0-19.74-7.832-38.34-22.054-52.373z"
+                                          clip-path="url(&quot;#qus0b&quot;)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+---> <a href="https://tsutmb.ru/institutes/history/obuchenie/raspisanie/" class="preparations__card "
+        id="bx_1847241719_70">
+                <div class="text">
+                    Институт образования и общественных наук
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="160" height="172" viewbox="null">
+                    <defs>
+                        <clipPath id="rbmaa">
+                            <path fill="#fff"
+                                  d="M10 52a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8z"></path>
+                        </clipPath>
+                        <clipPath id="rbmab">
+                            <path fill="#fff"
+                                  d="M64 52a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8H72a8 8 0 0 1-8-8z"></path>
+                        </clipPath>
+                        <clipPath id="rbmac">
+                            <path fill="#fff"
+                                  d="M117 52a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8h-17a8 8 0 0 1-8-8z"></path>
+                        </clipPath>
+                        <clipPath id="rbmad">
+                            <path fill="#fff"
+                                  d="M0 156a8 8 0 0 1 8-8h144a8 8 0 0 1 8 8v8a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"></path>
+                        </clipPath>
+                        <clipPath id="rbmae">
+                            <path fill="#fff"
+                                  d="M0 21.047a8 8 0 0 1 6.587-7.874L80 0l73.413 13.173A8 8 0 0 1 160 21.047V26a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g>
+                            <g>
+                                <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                      d="M10 52a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8z"
+                                      clip-path="url(&quot;#rbmaa&quot;)"></path>
+                            </g>
+                            <g>
+                                <path fill="inherit"
+                                      d="M73 58a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8H81a8 8 0 0 1-8-8z"></path>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                      d="M64 52a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8H72a8 8 0 0 1-8-8z"
+                                      clip-path="url(&quot;#rbmab&quot;)"></path>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                      d="M117 52a8 8 0 0 1 8-8h17a8 8 0 0 1 8 8v78a8 8 0 0 1-8 8h-17a8 8 0 0 1-8-8z"
+                                      clip-path="url(&quot;#rbmac&quot;)"></path>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                      d="M0 156a8 8 0 0 1 8-8h144a8 8 0 0 1 8 8v8a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"
+                                      clip-path="url(&quot;#rbmad&quot;)"></path>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                      d="M0 21.047a8 8 0 0 1 6.587-7.874L80 0v0l73.413 13.173A8 8 0 0 1 160 21.047V26a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"
+                                      clip-path="url(&quot;#rbmae&quot;)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+            <a href="https://tsutmb.ru/institutes/culture/obuchenie/raspisanie/"
+                    class="preparations__card preparations__hover" id="bx_1847241719_71">
+                <div class="text">
+                    Институт креативных индустрий, экономики и предпринимательства
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="176" height="172" viewbox="null">
+                    <defs>
+                        <clipPath id="eyvja">
+                            <path fill="#fff"
+                                  d="M148.5 172c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path>
+                        </clipPath>
+                        <clipPath id="eyvjb">
+                            <path fill="#fff"
+                                  d="M96.386 65.053c.491.144.99.215 1.483.215 1.095 0 2.166-.35 3.073-1.024a5.06 5.06 0 0 0 2.063-4.096v-3.844c0-7.812-6.322-14.207-14.095-14.254h-.259c-7.77.047-14.091 6.442-14.091 14.254v3.738a5.14 5.14 0 0 0 2.105 4.135 5.087 5.087 0 0 0 4.557.757c4.821-1.504 9.781-1.466 15.164.119z"></path>
+                        </clipPath>
+                        <clipPath id="eyvjc">
+                            <path fill="#fff"
+                                  d="M33.36 164.171c-18.346-13.419-29.645-34.354-30.761-56.997L.212 58.803c-.637-12.917 12.514-22.047 24.461-16.982l19.118 8.105a33.902 33.902 0 0 0 26.457 0l19.118-8.105c11.947-5.065 25.098 4.065 24.46 16.982l-2.385 48.372c-1.117 22.642-12.416 43.578-30.76 56.996-14.08 10.298-33.243 10.298-47.322 0z"></path>
+                        </clipPath>
+                        <clipPath id="eyvjd">
+                            <path fill="#fff"
+                                  d="M33.216 126.272a4.08 4.08 0 0 0-5.13.91 4.029 4.029 0 0 0-.102 5.183l8.295 10.473c4.978 6.284 12.444 9.887 20.486 9.887 8.041 0 15.508-3.604 20.485-9.887l8.296-10.473a4.029 4.029 0 0 0-.103-5.182 4.082 4.082 0 0 0-5.13-.911 48.496 48.496 0 0 1-23.548 6.113 48.5 48.5 0 0 1-23.55-6.113z"></path>
+                        </clipPath>
+                        <clipPath id="eyvje">
+                            <path fill="#fff"
+                                  d="M43.17 71.517c-10.635-4.862-20.392-4.822-29 .12a2.814 2.814 0 0 0-1.04 3.854 2.844 2.844 0 0 0 3.874 1.034c7.021-4.03 14.804-3.991 23.797.12a2.837 2.837 0 0 0 3.761-1.386 2.815 2.815 0 0 0-1.393-3.742z"></path>
+                        </clipPath>
+                        <clipPath id="eyvjf">
+                            <path fill="#fff"
+                                  d="M36.386 105.053c.491.144.99.215 1.483.215 1.095 0 2.166-.35 3.073-1.024a5.06 5.06 0 0 0 2.063-4.096v-3.844c0-7.812-6.322-14.207-14.095-14.254h-.259c-7.77.047-14.091 6.442-14.091 14.254v3.738a5.14 5.14 0 0 0 2.105 4.135 5.087 5.087 0 0 0 4.557.757c4.821-1.504 9.781-1.466 15.164.119z"></path>
+                        </clipPath>
+                        <clipPath id="eyvjg">
+                            <path fill="#fff"
+                                  d="M99.352 75.49a2.814 2.814 0 0 0-1.04-3.854c-8.607-4.94-18.364-4.981-29-.12a2.816 2.816 0 0 0-1.392 3.743 2.837 2.837 0 0 0 3.761 1.385c8.992-4.11 16.776-4.15 23.797-.12a2.845 2.845 0 0 0 3.874-1.033z"></path>
+                        </clipPath>
+                        <clipPath id="eyvjh">
+                            <path fill="#fff"
+                                  d="M83.83 82.05h-.26c-7.769.047-14.09 6.442-14.09 14.254v3.844a5.06 5.06 0 0 0 2.063 4.096 5.134 5.134 0 0 0 4.555.809c5.383-1.585 10.343-1.624 15.164-.119a5.087 5.087 0 0 0 4.557-.757 5.14 5.14 0 0 0 2.106-4.134v-3.739c0-7.812-6.321-14.207-14.095-14.254z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g clip-path="url(#clip-B1267A52-A718-4A01-A24A-E13EEF55BE3B)">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path fill="inherit"
+                                              d="M155.5 165c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path>
+                                    </g>
+                                    <g>
+                                        <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                              d="M148.5 172c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"
+                                              clip-path="url(&quot;#eyvja&quot;)"></path>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path fill="inherit"
+                                                          d="M93.36 124.171c-18.346-13.419-29.645-34.354-30.761-56.997l-2.387-48.371C59.575 5.886 72.726-3.244 84.673 1.821l19.118 8.105a33.902 33.902 0 0 0 26.457 0l19.118-8.105c11.947-5.065 25.098 4.065 24.46 16.982l-2.385 48.372c-1.117 22.642-12.416 43.578-30.76 56.996-14.08 10.298-33.243 10.298-47.322 0z"></path>
+                                                </g>
+                                                <g>
+                                                    <g transform="rotate(-180 116.765 94.235)">
+                                                        <path fill="#fff"
+                                                              d="M93.216 81.272a4.08 4.08 0 0 0-5.13.91 4.029 4.029 0 0 0-.102 5.183l8.295 10.473c4.978 6.284 12.444 9.887 20.486 9.887 8.041 0 15.508-3.604 20.485-9.887l8.296-10.473a4.029 4.029 0 0 0-.103-5.182 4.082 4.082 0 0 0-5.13-.911 48.496 48.496 0 0 1-23.548 6.113 48.5 48.5 0 0 1-23.55-6.113z"></path>
+                                                    </g>
+                                                    <g>
+                                                        <path fill="#fff"
+                                                              d="M103.17 31.517c-10.635-4.862-20.392-4.822-29 .12a2.814 2.814 0 0 0-1.04 3.854 2.844 2.844 0 0 0 3.874 1.034c7.021-4.03 14.804-3.991 23.797.12a2.837 2.837 0 0 0 3.761-1.386 2.815 2.815 0 0 0-1.393-3.742z"></path>
+                                                    </g>
+                                                    <g>
+                                                        <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                              stroke-width="1.6"
+                                                              d="M96.386 65.053c.491.144.99.215 1.483.215 1.095 0 2.166-.35 3.073-1.024a5.06 5.06 0 0 0 2.063-4.096v-3.844c0-7.812-6.322-14.207-14.095-14.254h-.259c-7.77.047-14.091 6.442-14.091 14.254v3.738a5.14 5.14 0 0 0 2.105 4.135 5.087 5.087 0 0 0 4.557.757c4.821-1.504 9.781-1.466 15.164.119z"
+                                                              clip-path="url(&quot;#eyvjb&quot;)"></path>
+                                                    </g>
+                                                    <g>
+                                                        <path fill="#fff"
+                                                              d="M159.352 35.49a2.814 2.814 0 0 0-1.04-3.854c-8.607-4.94-18.364-4.981-29-.12a2.816 2.816 0 0 0-1.392 3.743 2.837 2.837 0 0 0 3.761 1.385c8.992-4.11 16.776-4.15 23.797-.12a2.845 2.845 0 0 0 3.874-1.033z"></path>
+                                                    </g>
+                                                    <g>
+                                                        <path fill="#fff"
+                                                              d="M143.83 42.05h-.26c-7.769.047-14.09 6.442-14.09 14.254v3.844a5.06 5.06 0 0 0 2.063 4.096 5.134 5.134 0 0 0 4.555.809c5.383-1.585 10.343-1.624 15.164-.119a5.087 5.087 0 0 0 4.557-.757 5.14 5.14 0 0 0 2.106-4.134v-3.739c0-7.812-6.321-14.207-14.095-14.254z"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <g>
+                                                        <g>
+                                                            <path fill="#fff"
+                                                                  d="M33.36 164.171c-18.346-13.419-29.645-34.354-30.761-56.997L.212 58.803c-.637-12.917 12.514-22.047 24.461-16.982l19.118 8.105a33.902 33.902 0 0 0 26.457 0l19.118-8.105c11.947-5.065 25.098 4.065 24.46 16.982l-2.385 48.372c-1.117 22.642-12.416 43.578-30.76 56.996-14.08 10.298-33.243 10.298-47.322 0z"></path>
+                                                            <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                                  stroke-width="1.6"
+                                                                  d="M33.36 164.171c-18.346-13.419-29.645-34.354-30.761-56.997L.212 58.803c-.637-12.917 12.514-22.047 24.461-16.982l19.118 8.105a33.902 33.902 0 0 0 26.457 0l19.118-8.105c11.947-5.065 25.098 4.065 24.46 16.982l-2.385 48.372c-1.117 22.642-12.416 43.578-30.76 56.996-14.08 10.298-33.243 10.298-47.322 0z"
+                                                                  clip-path="url(&quot;#eyvjc&quot;)"></path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g>
+                                                    <path fill="inherit"
+                                                          d="M44.262 73.978c-.395 0-.797-.083-1.18-.258-8.977-4.109-16.746-4.148-23.755-.12a2.837 2.837 0 0 1-3.868-1.033 2.814 2.814 0 0 1 1.038-3.853c8.593-4.938 18.334-4.979 28.95-.12a2.815 2.815 0 0 1 1.39 3.74 2.833 2.833 0 0 1-2.575 1.644z"></path>
+                                                </g>
+                                                <g>
+                                                    <path fill="inherit"
+                                                          d="M72.734 73.977a2.832 2.832 0 0 1-2.575-1.643 2.815 2.815 0 0 1 1.39-3.74c10.618-4.859 20.357-4.818 28.95.12a2.814 2.814 0 0 1 1.038 3.852A2.838 2.838 0 0 1 97.67 73.6c-7.009-4.028-14.779-3.989-23.755.12a2.84 2.84 0 0 1-1.181.257z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                          stroke-width="1.6"
+                                                          d="M33.216 126.272a4.08 4.08 0 0 0-5.13.91 4.029 4.029 0 0 0-.102 5.183l8.295 10.473c4.978 6.284 12.444 9.887 20.486 9.887 8.041 0 15.508-3.604 20.485-9.887l8.296-10.473a4.029 4.029 0 0 0-.103-5.182 4.082 4.082 0 0 0-5.13-.911 48.496 48.496 0 0 1-23.548 6.113 48.5 48.5 0 0 1-23.55-6.113z"
+                                                          clip-path="url(&quot;#eyvjd&quot;)"></path>
+                                                </g>
+                                                <g>
+                                                    <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                          stroke-width="1.6"
+                                                          d="M43.17 71.517c-10.635-4.862-20.392-4.822-29 .12a2.814 2.814 0 0 0-1.04 3.854 2.844 2.844 0 0 0 3.874 1.034c7.021-4.03 14.804-3.991 23.797.12a2.837 2.837 0 0 0 3.761-1.386 2.815 2.815 0 0 0-1.393-3.742z"
+                                                          clip-path="url(&quot;#eyvje&quot;)"></path>
+                                                </g>
+                                                <g>
+                                                    <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                          stroke-width="1.6"
+                                                          d="M36.386 105.053c.491.144.99.215 1.483.215 1.095 0 2.166-.35 3.073-1.024a5.06 5.06 0 0 0 2.063-4.096v-3.844c0-7.812-6.322-14.207-14.095-14.254h-.259c-7.77.047-14.091 6.442-14.091 14.254v3.738a5.14 5.14 0 0 0 2.105 4.135 5.087 5.087 0 0 0 4.557.757c4.821-1.504 9.781-1.466 15.164.119z"
+                                                          clip-path="url(&quot;#eyvjf&quot;)"></path>
+                                                </g>
+                                                <g>
+                                                    <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                          stroke-width="1.6"
+                                                          d="M99.352 75.49a2.814 2.814 0 0 0-1.04-3.854c-8.607-4.94-18.364-4.981-29-.12a2.816 2.816 0 0 0-1.392 3.743 2.837 2.837 0 0 0 3.761 1.385c8.992-4.11 16.776-4.15 23.797-.12a2.845 2.845 0 0 0 3.874-1.033z"
+                                                          clip-path="url(&quot;#eyvjg&quot;)"></path>
+                                                </g>
+                                                <g>
+                                                    <path fill="none" stroke="inherit" stroke-miterlimit="20"
+                                                          stroke-width="1.6"
+                                                          d="M83.83 82.05v0h-.26c-7.769.047-14.09 6.442-14.09 14.254v3.844a5.06 5.06 0 0 0 2.063 4.096 5.134 5.134 0 0 0 4.555.809c5.383-1.585 10.343-1.624 15.164-.119a5.087 5.087 0 0 0 4.557-.757 5.14 5.14 0 0 0 2.106-4.134v-3.739c0-7.812-6.321-14.207-14.095-14.254z"
+                                                          clip-path="url(&quot;#eyvjh&quot;)"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a> 
+            <!---
+            <a href="https://tsutmb.ru/institutes/filologia/obuchenie/voprosyi/" class="preparations__card " id="bx_1847241719_72">
+                <div class="text">
+                    Факультет филологии и журналистики
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="173" height="164"
+                     viewBox="0 0 173 164">
+                    <defs>
+                        <clipPath id="m644a">
+                            <path fill="#fff"
+                                  d="M34.843 147.894c-3.256 0-5.992-1.107-8.208-3.322-2.215-2.215-3.323-4.95-3.323-8.205 0-9.605 7.661-14.408 22.983-14.408H51.9v17.85c-5.819 5.39-11.504 8.085-17.057 8.085zM71.68 164c3.844 0 8.275-.748 13.293-2.243l-.56-13.292c-1.281.213-2.322.32-3.123.32-4.431 0-6.647-3.444-6.647-10.33V99.537c0-18.311-11.504-27.467-34.513-27.467-10.517 0-21.141 2.029-31.872 6.086v16.336c9.45-5.232 18.792-7.848 28.028-7.848 10.41 0 15.615 4.565 15.615 13.694v8.007h-6.326c-14.468 0-25.585 2.63-33.353 7.888C4.454 121.492.57 128.98.57 138.695c0 7.474 2.402 13.56 7.207 18.258C12.582 161.65 18.827 164 26.515 164c9.022 0 17.484-3.817 25.385-11.451h1.041c2.776 7.634 9.022 11.45 18.738 11.45z"></path>
+                        </clipPath>
+                        <clipPath id="m644b">
+                            <path fill="#fff"
+                                  d="M136.511 93.077c-5.319 0-10.333-2.617-15.041-7.852V56.763c5.275-7.372 10.769-11.057 16.48-11.057 9.46 0 14.19 7.35 14.19 22.05 0 7.677-1.416 13.816-4.25 18.418-2.834 4.602-6.627 6.903-11.379 6.903zm5.501 12.562c9.335 0 16.794-3.588 22.377-10.763 5.583-7.175 8.375-16.76 8.375-28.756 0-11.08-2.475-19.782-7.426-26.107-4.951-6.325-11.745-9.487-20.382-9.487-10.686 0-18.516 5.06-23.489 15.18V.69H102.1v103.313h15.769l3.598-7.262c5.67 5.932 12.52 8.898 20.545 8.898z"></path>
+                        </clipPath>
+                        <clipPath id="m644c">
+                            <path fill="#fff"
+                                  d="M143.5 164c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path>
+                        </clipPath>
+                        <clipPath id="m644d">
+                            <path fill="#fff"
+                                  d="M19 25c0-8.837 7.163-16 16-16h17.032c8.836 0 16 7.163 16 16v15c0 5.523-4.477 10-10 10H46.894l-11.408 8.403a2 2 0 0 1-3.186-1.61V50H25a6 6 0 0 1-6-6z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <path fill="inherit"
+                                          d="M42.843 142.894c-3.256 0-5.992-1.107-8.208-3.322-2.215-2.215-3.323-4.95-3.323-8.205 0-9.605 7.661-14.408 22.983-14.408H59.9v17.85c-5.819 5.39-11.504 8.085-17.057 8.085zM79.68 159c3.844 0 8.275-.748 13.293-2.243l-.56-13.292c-1.281.213-2.322.32-3.123.32-4.431 0-6.647-3.444-6.647-10.33V94.537c0-18.311-11.504-27.467-34.513-27.467-10.517 0-21.141 2.029-31.872 6.086v16.336c9.45-5.232 18.792-7.848 28.028-7.848 10.41 0 15.615 4.565 15.615 13.694v8.007h-6.326c-14.468 0-25.585 2.63-33.353 7.888-7.767 5.259-11.651 12.746-11.651 22.462 0 7.474 2.402 13.56 7.207 18.258C20.582 156.65 26.827 159 34.515 159c9.022 0 17.484-3.817 25.385-11.451h1.041c2.776 7.634 9.022 11.45 18.738 11.45z"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M34.843 147.894c-3.256 0-5.992-1.107-8.208-3.322-2.215-2.215-3.323-4.95-3.323-8.205 0-9.605 7.661-14.408 22.983-14.408H51.9v17.85c-5.819 5.39-11.504 8.085-17.057 8.085zM71.68 164c3.844 0 8.275-.748 13.293-2.243l-.56-13.292c-1.281.213-2.322.32-3.123.32-4.431 0-6.647-3.444-6.647-10.33V99.537c0-18.311-11.504-27.467-34.513-27.467-10.517 0-21.141 2.029-31.872 6.086v16.336c9.45-5.232 18.792-7.848 28.028-7.848 10.41 0 15.615 4.565 15.615 13.694v8.007h-6.326c-14.468 0-25.585 2.63-33.353 7.888C4.454 121.492.57 128.98.57 138.695c0 7.474 2.402 13.56 7.207 18.258C12.582 161.65 18.827 164 26.515 164c9.022 0 17.484-3.817 25.385-11.451h1.041c2.776 7.634 9.022 11.45 18.738 11.45z"
+                                          clip-path="url(&quot;#m644a&quot;)"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M136.511 93.077c-5.319 0-10.333-2.617-15.041-7.852V56.763c5.275-7.372 10.769-11.057 16.48-11.057 9.46 0 14.19 7.35 14.19 22.05 0 7.677-1.416 13.816-4.25 18.418-2.834 4.602-6.627 6.903-11.379 6.903zm5.501 12.562c9.335 0 16.794-3.588 22.377-10.763 5.583-7.175 8.375-16.76 8.375-28.756 0-11.08-2.475-19.782-7.426-26.107-4.951-6.325-11.745-9.487-20.382-9.487-10.686 0-18.516 5.06-23.489 15.18V.69H102.1v103.313h15.769l3.598-7.262c5.67 5.932 12.52 8.898 20.545 8.898z"
+                                          clip-path="url(&quot;#m644b&quot;)"></path>
+                                </g>
+                            </g>
+                            <g>
+                                <path fill="inherit"
+                                      d="M152.5 157c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                      d="M143.5 164c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"
+                                      clip-path="url(&quot;#m644c&quot;)"></path>
+                            </g>
+                            <g>
+                                <g>
+                                    <path fill="inherit"
+                                          d="M28 17c0-8.837 7.163-16 16-16h14c8.837 0 16 7.163 16 16v13.822a9 9 0 0 1-9 9H54.17l-10.5 7.804a2 2 0 0 1-3.192-1.605v-6.2H34a6 6 0 0 1-6-6z"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M19 25c0-8.837 7.163-16 16-16h17.032c8.836 0 16 7.163 16 16v15c0 5.523-4.477 10-10 10H46.894v0l-11.408 8.403a2 2 0 0 1-3.186-1.61V50v0H25a6 6 0 0 1-6-6z"
+                                          clip-path="url(&quot;#m644d&quot;)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+			
+			--->
+            <a href="https://tsutmb.ru/institutes/sport/obuchenie/raspisaniu/" class="preparations__card " id="bx_1847241719_73">
+                <div class="text">
+                    Факультет физической культуры и спорта
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="184" height="139"
+                     viewBox="0 0 184 139">
+                    <defs>
+                        <clipPath id="x0w8a">
+                            <path fill="#fff"
+                                  d="M163 134.5c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path>
+                        </clipPath>
+                        <clipPath id="x0w8b">
+                            <path fill="#fff"
+                                  d="M119.73 37.24c10.25 0 18.56-8.31 18.56-18.56 0-10.25-8.31-18.56-18.56-18.56-10.25 0-18.56 8.31-18.56 18.56.011 10.246 8.314 18.549 18.56 18.56z"></path>
+                        </clipPath>
+                        <clipPath id="x0w8c">
+                            <path fill="#fff"
+                                  d="M40.51 54.446a10.207 10.207 0 0 0 7.24-2.993l20.932-20.935L82.656 44.49c3.996 3.997 10.475 3.997 14.471 0l.015-.014c3.985-3.998 3.985-10.468 0-14.467L76.882 9.757c-4.528-4.53-11.871-4.53-16.401 0L33.263 36.973a10.24 10.24 0 0 0 7.248 17.473z"></path>
+                        </clipPath>
+                        <clipPath id="x0w8d">
+                            <path fill="#fff"
+                                  d="M129.01 60.439h-23.2v-11.6a2.32 2.32 0 1 0-3.96-1.64l-13.92 13.92a2.32 2.32 0 0 0-.68 1.64v9.28a6.959 6.959 0 0 0 6.96 6.96h34.8a9.28 9.28 0 0 0 0-18.56z"></path>
+                        </clipPath>
+                        <clipPath id="x0w8e">
+                            <path fill="#fff"
+                                  d="M58.775 90.834L47.574 79.632a2.388 2.388 0 0 0-3.281 0L2.997 120.93c-3.996 3.996-3.996 10.474 0 14.47v.01c3.998 3.992 10.472 3.992 14.47 0l41.295-41.295a2.32 2.32 0 0 0 .013-3.28z"></path>
+                        </clipPath>
+                        <clipPath id="x0w8f">
+                            <path fill="#fff"
+                                  d="M70.849 66.678A10.247 10.247 0 0 0 53.59 71.21a10.244 10.244 0 0 0 2.771 9.953l18.126 18.122-21.98 11.713c-4.888 2.792-6.594 9.015-3.812 13.909l.33.608a10.292 10.292 0 0 0 8.913 5.14 10.031 10.031 0 0 0 5.007-1.33l28.615-15.39 3.712-2.131a11.602 11.602 0 0 0 2.436-18.268z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <path fill="inherit"
+                                          d="M156 131.5c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"></path>
+                                </g>
+                                <g>
+                                    <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                          d="M163 134.5c11.322 0 20.5-9.178 20.5-20.5s-9.178-20.5-20.5-20.5-20.5 9.178-20.5 20.5 9.178 20.5 20.5 20.5z"
+                                          clip-path="url(&quot;#x0w8a&quot;)"></path>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                              d="M119.73 37.24c10.25 0 18.56-8.31 18.56-18.56 0-10.25-8.31-18.56-18.56-18.56-10.25 0-18.56 8.31-18.56 18.56.011 10.246 8.314 18.549 18.56 18.56z"
+                                              clip-path="url(&quot;#x0w8b&quot;)"></path>
+                                    </g>
+                                    <g>
+                                        <path fill="inherit"
+                                              d="M32.51 52.446a10.207 10.207 0 0 0 7.24-2.993l20.932-20.935L74.656 42.49c3.996 3.997 10.475 3.997 14.471 0l.015-.014c3.985-3.998 3.985-10.468 0-14.467L68.882 7.757c-4.528-4.53-11.871-4.53-16.401 0L25.263 34.973a10.24 10.24 0 0 0 7.248 17.473z"></path>
+                                    </g>
+                                    <g>
+                                        <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                              d="M40.51 54.446a10.207 10.207 0 0 0 7.24-2.993l20.932-20.935v0L82.656 44.49c3.996 3.997 10.475 3.997 14.471 0l.015-.014c3.985-3.998 3.985-10.468 0-14.467L76.882 9.757c-4.528-4.53-11.871-4.53-16.401 0L33.263 36.973a10.24 10.24 0 0 0 7.248 17.473z"
+                                              clip-path="url(&quot;#x0w8c&quot;)"></path>
+                                    </g>
+                                    <g>
+                                        <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                              d="M129.01 60.439v0h-23.2v0-11.6a2.32 2.32 0 1 0-3.96-1.64l-13.92 13.92a2.32 2.32 0 0 0-.68 1.64v9.28a6.959 6.959 0 0 0 6.96 6.96h34.8a9.28 9.28 0 0 0 0-18.56z"
+                                              clip-path="url(&quot;#x0w8d&quot;)"></path>
+                                    </g>
+                                    <g>
+                                        <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                              d="M58.775 90.834v0L47.574 79.632a2.388 2.388 0 0 0-3.281 0L2.997 120.93c-3.996 3.996-3.996 10.474 0 14.47v.01c3.998 3.992 10.472 3.992 14.47 0l41.295-41.295a2.32 2.32 0 0 0 .013-3.28z"
+                                              clip-path="url(&quot;#x0w8e&quot;)"></path>
+                                    </g>
+                                    <g>
+                                        <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                              d="M70.849 66.678A10.247 10.247 0 0 0 53.59 71.21a10.244 10.244 0 0 0 2.771 9.953l18.126 18.122v0l-21.98 11.713c-4.888 2.792-6.594 9.015-3.812 13.909l.33.608a10.292 10.292 0 0 0 8.913 5.14 10.031 10.031 0 0 0 5.007-1.33l28.615-15.39v0l3.712-2.131a11.602 11.602 0 0 0 2.436-18.268z"
+                                              clip-path="url(&quot;#x0w8f&quot;)"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+			<a href="https://tsutmb.ru/institutes/lyceum/education/" id="bx_1847241719_67"
+                    class="preparations__card ">
+                <div class="text">
+                    Державинский лицей
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="197" height="154" viewbox="null">
+                    <defs>
+                        <clipPath id="rh22a">
+                            <path fill="#fff"
+                                  d="M0 12C0 5.373 5.373 0 12 0h173c6.627 0 12 5.373 12 12v130c0 6.627-5.373 12-12 12H12c-6.627 0-12-5.373-12-12z"></path>
+                        </clipPath>
+                        <clipPath id="rh22b">
+                            <path fill="#fff"
+                                  d="M18 36c0-8.837 7.163-16 16-16h17.032c8.836 0 16 7.163 16 16v15c0 5.523-4.477 10-10 10H45.894l-11.408 8.403a2 2 0 0 1-3.186-1.61V61H24a6 6 0 0 1-6-6z"></path>
+                        </clipPath>
+                        <clipPath id="rh22c">
+                            <path fill="#fff"
+                                  d="M88.574 101.656h-9.628l4.84-13.634h.104zm-14.668 14.342l2.912-8.268h13.884l2.808 8.268h8.476L88.102 78.87H79.73l-14.04 37.128z"></path>
+                        </clipPath>
+                        <clipPath id="rh22d">
+                            <path fill="#fff"
+                                  d="M119.754 78.342V67.994h8.326c.902 0 1.743.087 2.523.26.78.173 1.457.46 2.03.858a3.958 3.958 0 0 1 1.327 1.586c.312.659.468 1.473.468 2.444 0 1.976-.555 3.337-1.665 4.082-1.11.745-2.654 1.118-4.631 1.118zm9.256 6.656c2.01 0 3.848-.225 5.512-.676 1.664-.45 3.094-1.161 4.29-2.132 1.196-.97 2.123-2.193 2.782-3.666.659-1.473.988-3.233.988-5.278 0-2.01-.338-3.753-1.014-5.226-.676-1.473-1.603-2.687-2.782-3.64-1.179-.953-2.565-1.655-4.16-2.106-1.595-.45-3.328-.676-5.2-.676h-9.672v-7.02h19.396V47.87h-27.56v37.128z"></path>
+                        </clipPath>
+                        <clipPath id="rh22e">
+                            <path fill="#fff"
+                                  d="M162.751 47.654V37.462h8.896c1.768 0 3.19.407 4.265 1.222 1.075.815 1.613 2.175 1.613 4.082 0 .97-.165 1.768-.495 2.392a3.926 3.926 0 0 1-1.326 1.482 5.618 5.618 0 0 1-1.925.78c-.728.156-1.49.234-2.289.234zm0-15.746v-8.694h7.648c.728 0 1.43.06 2.107.182a5.26 5.26 0 0 1 1.794.651c.52.312.937.746 1.249 1.301.312.556.468 1.267.468 2.135 0 1.562-.468 2.69-1.404 3.384-.937.694-2.133 1.041-3.59 1.041zm9.831 22.09c1.664 0 3.285-.208 4.862-.624 1.577-.416 2.981-1.057 4.212-1.924a9.475 9.475 0 0 0 2.938-3.354c.728-1.37 1.092-2.99 1.092-4.862 0-2.323-.563-4.307-1.69-5.954-1.127-1.647-2.834-2.8-5.122-3.458 1.664-.797 2.92-1.82 3.77-3.068.85-1.248 1.274-2.808 1.274-4.68 0-1.733-.286-3.19-.858-4.368-.572-1.179-1.378-2.123-2.418-2.834-1.04-.71-2.288-1.222-3.744-1.534-1.456-.312-3.068-.468-4.836-.468H154.59v37.128z"></path>
+                        </clipPath>
+                        <clipPath id="rh22f">
+                            <path fill="#fff" d="M9.5 145h178v-8H9.5z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                  d="M0 12C0 5.373 5.373 0 12 0h173c6.627 0 12 5.373 12 12v130c0 6.627-5.373 12-12 12H12c-6.627 0-12-5.373-12-12z"
+                                  clip-path="url(&quot;#rh22a&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="inherit"
+                                  d="M27 28c0-8.837 7.163-16 16-16h14c8.837 0 16 7.163 16 16v13.822a9 9 0 0 1-9 9H53.17l-10.5 7.804a2 2 0 0 1-3.192-1.605v-6.2H33a6 6 0 0 1-6-6z"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                  d="M18 36c0-8.837 7.163-16 16-16h17.032c8.836 0 16 7.163 16 16v15c0 5.523-4.477 10-10 10H45.894v0l-11.408 8.403a2 2 0 0 1-3.186-1.61V61v0H24a6 6 0 0 1-6-6z"
+                                  clip-path="url(&quot;#rh22b&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="inherit" d="M12.5 141h178v-8h-178z"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                  d="M88.574 101.656h-9.628l4.84-13.634h.104zm-14.668 14.342l2.912-8.268h13.884l2.808 8.268h8.476L88.102 78.87H79.73l-14.04 37.128z"
+                                  clip-path="url(&quot;#rh22c&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="inherit"
+                                  d="M122.754 75.342V64.994h8.326c.902 0 1.743.087 2.523.26.78.173 1.457.46 2.03.858a3.958 3.958 0 0 1 1.327 1.586c.312.659.468 1.473.468 2.444 0 1.976-.555 3.337-1.665 4.082-1.11.745-2.654 1.118-4.631 1.118zm9.256 6.656c2.01 0 3.848-.225 5.512-.676 1.664-.45 3.094-1.161 4.29-2.132 1.196-.97 2.123-2.193 2.782-3.666.659-1.473.988-3.233.988-5.278 0-2.01-.338-3.753-1.014-5.226-.676-1.473-1.603-2.687-2.782-3.64-1.179-.953-2.565-1.655-4.16-2.106-1.595-.45-3.328-.676-5.2-.676h-9.672v-7.02h19.396V44.87h-27.56v37.128z"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                  d="M119.754 78.342V67.994h8.326c.902 0 1.743.087 2.523.26.78.173 1.457.46 2.03.858a3.958 3.958 0 0 1 1.327 1.586c.312.659.468 1.473.468 2.444 0 1.976-.555 3.337-1.665 4.082-1.11.745-2.654 1.118-4.631 1.118zm9.256 6.656c2.01 0 3.848-.225 5.512-.676 1.664-.45 3.094-1.161 4.29-2.132 1.196-.97 2.123-2.193 2.782-3.666.659-1.473.988-3.233.988-5.278 0-2.01-.338-3.753-1.014-5.226-.676-1.473-1.603-2.687-2.782-3.64-1.179-.953-2.565-1.655-4.16-2.106-1.595-.45-3.328-.676-5.2-.676h-9.672v-7.02h19.396V47.87h-27.56v37.128z"
+                                  clip-path="url(&quot;#rh22d&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                  d="M162.751 47.654V37.462h8.896c1.768 0 3.19.407 4.265 1.222 1.075.815 1.613 2.175 1.613 4.082 0 .97-.165 1.768-.495 2.392a3.926 3.926 0 0 1-1.326 1.482 5.618 5.618 0 0 1-1.925.78c-.728.156-1.49.234-2.289.234zm0-15.746v-8.694h7.648c.728 0 1.43.06 2.107.182a5.26 5.26 0 0 1 1.794.651c.52.312.937.746 1.249 1.301.312.556.468 1.267.468 2.135 0 1.562-.468 2.69-1.404 3.384-.937.694-2.133 1.041-3.59 1.041zm9.831 22.09c1.664 0 3.285-.208 4.862-.624 1.577-.416 2.981-1.057 4.212-1.924a9.475 9.475 0 0 0 2.938-3.354c.728-1.37 1.092-2.99 1.092-4.862 0-2.323-.563-4.307-1.69-5.954-1.127-1.647-2.834-2.8-5.122-3.458 1.664-.797 2.92-1.82 3.77-3.068.85-1.248 1.274-2.808 1.274-4.68 0-1.733-.286-3.19-.858-4.368-.572-1.179-1.378-2.123-2.418-2.834-1.04-.71-2.288-1.222-3.744-1.534-1.456-.312-3.068-.468-4.836-.468H154.59v37.128z"
+                                  clip-path="url(&quot;#rh22e&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6"
+                                  d="M9.5 145v0h178v0-8 0H9.5v0z" clip-path="url(&quot;#rh22f&quot;)"></path>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+ <!---
+            <a href="https://tsutmb.ru/institutes/mil/obuchenie/raspisanie/" class="preparations__card " id="bx_1847241719_73">
+                <div class="text">
+                    Институт военного образования
+                </div>
+                <svg class="preparations" xmlns="http://www.w3.org/2000/svg" width="147" height="148" viewBox="0 0 147 148">
+                    <defs>
+                        <clipPath id="vv9sa">
+                            <path fill="#fff" d="M79.5 114l-41.733 21.94 7.97-46.47-33.762-32.91 46.659-6.78L79.5 7.5l20.866 42.28 46.659 6.78-33.762 32.91 7.97 46.47z"></path>
+                        </clipPath>
+                        <clipPath id="vv9sb">
+                            <path fill="#fff" d="M34 22.5l-8.817 4.635 1.684-9.817-7.133-6.953 9.858-1.433L34 0l4.408 8.932 9.858 1.433-7.133 6.953 1.684 9.817z"></path>
+                        </clipPath>
+                        <clipPath id="vv9sc">
+                            <path fill="#fff" d="M125 22.5l-8.817 4.635 1.684-9.817-7.133-6.953 9.858-1.433L125 0l4.408 8.932 9.858 1.433-7.133 6.953 1.684 9.817z"></path>
+                        </clipPath>
+                    </defs>
+                    <g>
+                        <g>
+                            <path fill="inherit" d="M67.5 126l-41.733 21.94 7.97-46.47L-.025 68.56l46.659-6.78L67.5 19.5l20.866 42.28 46.659 6.78-33.762 32.91 7.97 46.47z"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M79.5 114v0l-41.733 21.94v0l7.97-46.47v0L11.975 56.56v0l46.659-6.78v0L79.5 7.5v0l20.866 42.28v0l46.659 6.78v0l-33.762 32.91v0l7.97 46.47v0z" clip-path="url(&quot;#vv9sa&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M34 22.5v0l-8.817 4.635v0l1.684-9.817v0l-7.133-6.953v0l9.858-1.433v0L34 0v0l4.408 8.932v0l9.858 1.433v0l-7.133 6.953v0l1.684 9.817v0z" clip-path="url(&quot;#vv9sb&quot;)"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width="1.6" d="M125 22.5v0l-8.817 4.635v0l1.684-9.817v0l-7.133-6.953v0l9.858-1.433v0L125 0v0l4.408 8.932v0l9.858 1.433v0l-7.133 6.953v0l1.684 9.817v0z" clip-path="url(&quot;#vv9sc&quot;)"></path>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+---> <a href="https://tsutmb.ru/institutes/army/obuchayushchimsya/raspisanie-zanyatiy/" class="preparations__card " id="bx_1847241719_73">
+			<div class="text">
+				 Военный учебный центр
+			</div>
+ <svg class="preparations" width="123" height="116" viewbox="null" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M72.976 43.0045L59.0388 0.110306L45.1016 43.0045L0 43.0045L11.231 51.1643H52.253L59.0389 30.2786L65.8251 51.1643H106.847L118.078 43.0045L72.976 43.0045ZM92.4731 61.6072H69.2182L77.7944 88.0021L59.0389 74.3754L40.2834 88.0021L48.8599 61.6072H25.6044L36.488 69.5145L22.5508 112.409L59.0388 85.8987L95.5267 112.409L81.5896 69.5145L92.4731 61.6072Z" fill="inherit"></path> <clipPath id="path-2-inside-1_101_3" fill="white"> <path fill-rule="evenodd" clip-rule="evenodd" d="M77.8988 46.4854L63.9616 3.59126L50.0245 46.4854L4.92285 46.4854L16.1539 54.6453H57.1763L63.9622 33.7595L70.7484 54.6453H111.769L123 46.4854L77.8988 46.4854ZM97.396 65.0882H74.1415L82.7177 91.483L63.9622 77.8564L45.2067 91.483L53.7831 65.0882H30.5273L41.4108 72.9955L27.4737 115.89L63.9616 89.3796L100.45 115.89L86.5124 72.9955L97.396 65.0882Z"></path> </clipPath> <path d="M63.9616 3.59126L64.7225 3.34405L63.9616 1.00241L63.2008 3.34405L63.9616 3.59126ZM77.8988 46.4854L77.138 46.7327L77.3176 47.2854L77.8988 47.2854L77.8988 46.4854ZM50.0245 46.4854L50.0245 47.2854L50.6057 47.2854L50.7853 46.7327L50.0245 46.4854ZM4.92285 46.4854L4.92285 45.6854L2.4607 45.6854L4.45262 47.1327L4.92285 46.4854ZM16.1539 54.6453L15.6837 55.2925L15.894 55.4453H16.1539V54.6453ZM57.1763 54.6453V55.4453H57.7575L57.9371 54.8925L57.1763 54.6453ZM63.9622 33.7595L64.723 33.5123L63.9622 31.1706L63.2013 33.5123L63.9622 33.7595ZM70.7484 54.6453L69.9875 54.8925L70.1671 55.4453H70.7484V54.6453ZM111.769 54.6453V55.4453H112.029L112.24 55.2925L111.769 54.6453ZM123 46.4854L123.471 47.1327L125.463 45.6854L123 45.6854L123 46.4854ZM74.1415 65.0882V64.2882H73.0404L73.3806 65.3354L74.1415 65.0882ZM97.396 65.0882L97.8662 65.7354L99.8581 64.2882H97.396V65.0882ZM82.7177 91.483L82.2474 92.1302L84.2394 93.5775L83.4785 91.2358L82.7177 91.483ZM63.9622 77.8564L64.4324 77.2092L63.9622 76.8675L63.4919 77.2092L63.9622 77.8564ZM45.2067 91.483L44.4458 91.2358L43.685 93.5775L45.6769 92.1302L45.2067 91.483ZM53.7831 65.0882L54.5439 65.3354L54.8842 64.2882H53.7831V65.0882ZM30.5273 65.0882V64.2882H28.0651L30.0571 65.7354L30.5273 65.0882ZM41.4108 72.9955L42.1717 73.2427L42.3513 72.6899L41.8811 72.3483L41.4108 72.9955ZM27.4737 115.89L26.7128 115.642L25.952 117.984L27.9439 116.537L27.4737 115.89ZM63.9616 89.3796L64.4319 88.7324L63.9616 88.3908L63.4914 88.7324L63.9616 89.3796ZM100.45 115.89L99.9794 116.537L101.971 117.984L101.21 115.642L100.45 115.89ZM86.5124 72.9955L86.0422 72.3483L85.572 72.6899L85.7516 73.2427L86.5124 72.9955ZM63.2008 3.83848L77.138 46.7327L78.6596 46.2382L64.7225 3.34405L63.2008 3.83848ZM50.7853 46.7327L64.7225 3.83848L63.2008 3.34405L49.2636 46.2382L50.7853 46.7327ZM4.92285 47.2854L50.0245 47.2854L50.0245 45.6854L4.92285 45.6854L4.92285 47.2854ZM16.6241 53.9981L5.39308 45.8382L4.45262 47.1327L15.6837 55.2925L16.6241 53.9981ZM57.1763 53.8453H16.1539V55.4453H57.1763V53.8453ZM63.2013 33.5123L56.4154 54.3981L57.9371 54.8925L64.723 34.0067L63.2013 33.5123ZM71.5092 54.3981L64.723 33.5123L63.2013 34.0068L69.9875 54.8925L71.5092 54.3981ZM111.769 53.8453H70.7484V55.4453H111.769V53.8453ZM122.53 45.8382L111.299 53.9981L112.24 55.2925L123.471 47.1327L122.53 45.8382ZM77.8988 47.2854L123 47.2854L123 45.6854L77.8988 45.6854L77.8988 47.2854ZM74.1415 65.8882H97.396V64.2882H74.1415V65.8882ZM83.4785 91.2358L74.9023 64.8409L73.3806 65.3354L81.9568 91.7302L83.4785 91.2358ZM63.4919 78.5036L82.2474 92.1302L83.1879 90.8358L64.4324 77.2092L63.4919 78.5036ZM45.6769 92.1302L64.4324 78.5036L63.4919 77.2092L44.7364 90.8358L45.6769 92.1302ZM53.0223 64.8409L44.4458 91.2358L45.9675 91.7303L54.5439 65.3354L53.0223 64.8409ZM30.5273 65.8882H53.7831V64.2882H30.5273V65.8882ZM41.8811 72.3483L30.9975 64.4409L30.0571 65.7354L40.9406 73.6427L41.8811 72.3483ZM28.2345 116.137L42.1717 73.2427L40.65 72.7483L26.7128 115.642L28.2345 116.137ZM63.4914 88.7324L27.0034 115.242L27.9439 116.537L64.4319 90.0268L63.4914 88.7324ZM100.92 115.242L64.4319 88.7324L63.4914 90.0268L99.9794 116.537L100.92 115.242ZM85.7516 73.2427L99.6888 116.137L101.21 115.642L87.2733 72.7483L85.7516 73.2427ZM96.9258 64.4409L86.0422 72.3483L86.9827 73.6427L97.8662 65.7354L96.9258 64.4409Z" fill="black" mask="url(#path-2-inside-1_101_3)"></path> </svg> </a>
+		</div>
+	</div>
+</div>    <div class="container">
+	<div class="bottom__contact flex">
+		<div class="col contact__left">
+			<h2>Контакты</h2>
+			<div class="to__enroll">
+ <a class="flex" href="https://moodle1.tsutmb.ru/" target="_blank" rel="noopener">
+				<p class="hoverplus">
+				</p>
+				 Поступить </a>
+			</div>
+		</div>
+		<div class="col">
+			<div class="flex col__top">
+ <a class="tel" href="tel:+78002004465">8 (800) 200-44-65</a> бесплатный звонок по России
+			</div>
+			<div class="flex col__top">
+ <a class="tel" href="tel:*4465">*4465</a> бесплатный звонок с сотовых по России
+			</div>
+			<div class="flex">
+ <a class="tel" href="tel:+74752723434">8 (4752) 72-34-34</a> <a class="mail" href="mailto:post@tsu.tmb.ru">post@tsutmb.ru</a>
+			</div>
+		</div>
+		<div class="col col-display-block">
+			<div class="address">
+ <span>392036, г. Тамбов,<br>
+				 ул. Интернациональная, 33</span>
+			</div>
+			<div class="documents flex">
+				 Документы <span> <a href="/sveden/"> <span>Сведения об образовательной <br>
+				 организации</span> </a> </span>
+			</div>
+		</div>
+		<div class="col">
+			<div class="social__network">
+ <a href="https://vk.com/tsutmb" target="_blank"> 
+	<img width="30" alt="vk" src="/upload/iblock/new_socials/VK.svg" height="30">
+ </a>
+ <a href="https://t.me/tsutmb" target="_blank">
+ 	<img width="30" alt="Telegram" src="/upload/iblock/new_socials/TLG.svg" height="30">
+ </a>
+ <a href="https://ok.ru/tsutmb" target="_blank">
+	 <img width="30" alt="ok" src="/upload/iblock/new_socials/OK.svg" height="30"> 
+</a>
+<a href="https://dzen.ru/tsutmb" target="_blank">
+	  <img src="/upload/iblock/new_socials/dzen.svg" alt="Dzen" width="25" height="25" style="margin-left: 2px">
+</a>
+ <a href="https://rutube.ru/channel/27477835/" target="_blank">
+	 <img width="25" alt="Rutube" src="/upload/iblock/new_socials/rutube__.svg" height="25" style="margin-left: 3px"> 
+</a>
+
+							</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="content flex">
+                
+	
+	
+			<div class="footer__column collapse">
+			<div class="column__h footer__title">
+				Институты			</div>
+			<ul class="footer__ul conten">
+			
+						<li><a href="/institutes/imfit/">Институт новых технологий и искусственного интеллекта</a></li>
+					
+						<li><a href="/institutes/med/">Институт медицины и здоровьесбережения</a></li>
+					
+						<li><a href="/institutes/law/">Институт права и национальной безопасности</a></li>
+					
+						<li><a href="/institutes/history/">Институт образования и общественных наук</a></li>
+					
+						<li><a href="/institutes/culture/">Институт креативных индустрий, экономики и предпринимательства</a></li>
+					
+						<li><a href="/institutes/sport/">Факультет физической культуры и спорта</a></li>
+					
+						<li><a href="/institutes/army/">Военный учебный центр</a></li>
+					
+						<li><a href="/institutes/lyceum/">Державинский лицей</a></li>
+				
+	</ul></div>                <div class="column__footer">
+                    
+	
+	
+			<div class="footer__column collapse">
+			<div class="column__h footer__title">
+				Поступление			</div>
+			<ul class="footer__ul conten">
+			
+						<li><a href="https://tsutmb.ru/postuplenie/">Выберите специальность/направление/профиль</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/pravila-priema/normativno_pravovoe_obespechenie_priema/">Правила приема / Программы вступительных испытаний</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/raspisanie-i-rezultatyi-vstupitelnyix-ispyitanij/">Расписание и результаты вступительных испытаний</a></li>
+					
+						<li><a href="https://tsutmb.ru/postuplenie/#faq">Часто задаваемые вопросы</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/informacziya-o-postuplenii-dlya-licz-s-ovz/">Информация о поступлении для лиц с ОВЗ</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/perevod-iz-drugikh-obrazovatelnykh-uchrezhdeniy/">Перевод из других образовательных учреждений</a></li>
+					
+						<li><a href="https://tsutmb.ru/institutes/army/postupayushchim/">Военный учебный центр</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/stoimost-obucheniya/">Стоимость обучения</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/spiski-postupayushchikh/">Списки поступающих (РЕЙТИНГ)</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/podannye-zayavleniya/">Информация о количестве поданных заявлений/списки лиц, подавших документы</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/hostels/">Общежитие</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/prikazy-o-zachislenii/">Приказы/Сведения о зачислении</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/internet-priemnaya/">Интернет-приемная</a></li>
+					
+						<li><a href="/contacts/priemnaya/">Контакты</a></li>
+					
+						<li><a href="https://tsutmb.ru/abiturientu/targeted_training/">Целевое обучение</a></li>
+				
+	</ul></div>                </div>
+                <div class="column__footer">
+                    
+	
+	
+			<div class="footer__column collapse">
+			<div class="column__h footer__title">
+				Студентам			</div>
+			<ul class="footer__ul conten">
+			
+						<li><a href="https://tsutmb.ru/students/raspisanie/">Расписание</a></li>
+					
+						<li><a href="/students/volontyorskoe_dvizhenie/">Волонтёрское движение</a></li>
+					
+						<li><a href="/students/codex_studenta/">Кодекс студента</a></li>
+					
+						<li><a href="/students/meryi_soczialnoj_podderzhki/">Меры социальной поддержки</a></li>
+					
+						<li><a href="/students/mery-podderzhki-studencheskikh-semey/">Меры поддержки студенческих семей</a></li>
+					
+						<li><a href="/students/sovet_obuchayushhixsya/">Совет обучающихся</a></li>
+					
+						<li><a href="/students/obedinennyy-studencheskiy-nauchnyy-sovet/">Объединенный студенческий научный совет</a></li>
+					
+						<li><a href="/students/studencheskij_otryad_oxranyi_pravoporyadka/">Студенческий отряд охраны правопорядка «Держава»</a></li>
+					
+						<li><a href="/students/pravovoj_likbez/">Студенческая правовая консультация</a></li>
+					
+						<li><a href="https://www.tsutmb.ru/rso/">Российские студенческие отряды</a></li>
+					
+						<li><a href="/students/studencheskij_mfcz/">Студенческий МФЦ</a></li>
+					
+						<li><a href="/students/pofilaktika-kori/">Профилактика кори</a></li>
+					
+						<li><a href="/students/profilaktika-grippa-i-orvi/">Профилактика гриппа и ОРВИ</a></li>
+					
+						<li><a href="/sveden/paid_edu/">Об утверждении стоимости обучения по каждой образовательной программе</a></li>
+					
+						<li><a href="/students/olimpiady-i-konkursy/">Олимпиады и конкурсы</a></li>
+					
+						<li><a href="/students/tsentr-psikhologicheskogo-soprovozhdeniya-obuchayushchikhsya/">Центр психологического сопровождения обучающихся</a></li>
+					
+						<li><a href="https://vk.com/rabota_68?from=search">Центр карьеры Державинского университета</a></li>
+					
+						<li><a href="https://tsutmb.ru/sveden/paid_edu/">Платные образовательные услуги</a></li>
+				
+	</ul></div>                </div>
+
+                <div class="wrapper__connections flex">
+                    <div class="footer__social flex">
+	<div class="column__h footer__title">
+		 Подписывайтесь на нас
+	</div>
+	<ul class="ul__social flex">
+		<li>
+ 			<a href="https://vk.com/tsutmb" target="_blank">
+ 				<img width="30" alt="vk" src="/upload/iblock/new_socials/VK.svg" height="30">
+ 			</a>
+ 		</li>
+		<li> <a href="https://t.me/tsutmb" target="_blank"> <img width="30" alt="Telegram" src="/upload/iblock/new_socials/TLG.svg" height="30"> </a> </li>
+		<li> <a href="https://ok.ru/tsutmb" target="_blank"> <img width="30" alt="ok" src="/upload/iblock/new_socials/OK.svg" height="30"> </a> </li>
+		<li>
+			<a href="https://dzen.ru/tsutmb" target="_blank">
+				  <img src="/upload/iblock/new_socials/dzen.svg" alt="Dzen" width="25" height="25">
+			</a>
+		</li>
+		<li>
+			 <a href="https://rutube.ru/channel/27477835/" target="_blank"> 
+				<img width="25" alt="Rutube" src="/upload/iblock/new_socials/rutube__.svg" height="25"> 
+			</a>
+ 		</li>
+
+		 <!--
+			<li>
+				<a class="facebook" href="https://www.facebook.com/tsutmb/"> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewbox="null"> <g> <g> <g> <path fill="#fff" d="M8.045.843L6.027.84c-2.266 0-3.731 1.444-3.731 3.68v1.697H.267a.311.311 0 0 0-.317.305v2.459c0 .168.142.304.317.304h2.029v6.204c0 .169.142.305.317.305H5.26a.311.311 0 0 0 .317-.305V9.285h2.372a.311.311 0 0 0 .317-.304l.001-2.459a.3.3 0 0 0-.093-.216.324.324 0 0 0-.224-.089H5.577V4.779c0-.692.171-1.043 1.108-1.043h1.36a.311.311 0 0 0 .317-.305V1.148a.311.311 0 0 0-.317-.305z"></path> </g> </g> </g> </svg> </a> <br>
+			</li>
+			<li>
+				<a class="instagram" href="https://ok.ru/tsutmb"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1514_1546)"><path d="M10.2739 12.3542C11.1786 12.1465 12.0393 11.7906 12.8245 11.2976C13.4147 10.9023 13.5746 10.1054 13.1788 9.51309C12.8 8.94572 12.0419 8.77412 11.4554 9.12262C9.64864 10.2515 7.35205 10.2515 5.54527 9.12262C4.94761 8.74384 4.15339 8.9234 3.77461 9.52053C3.77461 9.52319 3.77461 9.52319 3.77461 9.52319C3.39583 10.124 3.57539 10.9177 4.17624 11.2938L4.17836 11.2965C4.96195 11.7895 5.82258 12.146 6.72411 12.351L4.26974 14.8049C3.76877 15.2979 3.76133 16.0995 4.25061 16.601L4.27239 16.6228C4.51624 16.8741 4.84561 16.9989 5.17499 16.9989C5.50436 16.9989 5.8332 16.8741 6.07652 16.6228L8.50061 14.2125L10.9104 16.626C11.4225 17.1153 12.2358 17.1041 12.7288 16.5925C13.2096 16.0947 13.2096 15.3053 12.7288 14.8075L10.2739 12.3542ZM8.50008 8.77412C10.9242 8.77147 12.8855 6.80903 12.8882 4.38812C12.8882 1.96987 10.9183 0 8.50008 0C6.08183 0 4.11195 1.96987 4.11195 4.38812C4.11461 6.81222 6.07917 8.77412 8.50008 8.77678V8.77412ZM8.50008 2.57337C9.50149 2.57337 10.3148 3.38672 10.3148 4.38812C10.3148 5.39272 9.50149 6.20341 8.50008 6.20659C7.49867 6.20394 6.68533 5.39272 6.68267 4.38812C6.68533 3.38672 7.49867 2.57337 8.50008 2.57072V2.57337Z" fill="white"/></g><defs><clipPath id="clip0_1514_1546"><rect width="17" height="17" fill="white"/></clipPath></defs></svg></a><br>
+			</li>
+	
+			<li>
+				<a class="vk" href="https://vk.com/tsutmb"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewbox="null"> <g> <g> <path fill="#fff" d="M16.646 8.476C16.13 7.869 15.523 7.35 14.95 6.8c-.518-.496-.55-.784-.134-1.357.454-.625.943-1.226 1.402-1.848.428-.581.866-1.161 1.091-1.857.143-.443.017-.639-.446-.716a1.455 1.455 0 0 0-.243-.015l-2.745-.003c-.338-.005-.525.14-.645.434-.161.398-.327.795-.52 1.179-.436.87-.923 1.71-1.606 2.423-.151.157-.318.355-.57.273-.314-.113-.407-.622-.402-.794l-.003-3.11c-.06-.445-.16-.643-.61-.729H6.666c-.38 0-.571.145-.774.379-.118.135-.153.222.088.267.473.088.74.389.81.855.114.744.106 1.491.04 2.238a2.05 2.05 0 0 1-.145.64c-.138.32-.36.385-.653.188-.265-.178-.45-.43-.633-.682a14.953 14.953 0 0 1-1.674-3.047c-.128-.31-.35-.499-.685-.504a71.278 71.278 0 0 0-2.471.001c-.496.01-.643.245-.442.686C1.024 3.66 2.023 5.564 3.326 7.3c.67.89 1.437 1.676 2.43 2.233 1.125.63 2.335.82 3.61.762.598-.027.777-.18.805-.764.018-.4.064-.797.265-1.156.198-.353.496-.42.84-.2.172.11.317.249.454.396.337.361.66.733 1.01 1.082.437.437.955.695 1.607.643h2.523c.406-.026.617-.515.384-.96a4.768 4.768 0 0 0-.608-.86z"></path> </g> </g> </svg> </a> <br>
+			</li>
+			<li>
+				<a class="tg" href="https://t.me/tsutmb"><svg width="15" height="12" viewbox="null" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.791566 5.77972L15.8678 0.0698825C16.5675 -0.178427 17.1787 0.237556 16.9519 1.27687L16.9532 1.27559L14.3862 13.1548C14.196 13.997 13.6865 14.2018 12.9737 13.805L9.0646 10.975L7.17909 12.7593C6.97061 12.9641 6.7947 13.1369 6.39075 13.1369L6.6683 9.22918L13.9132 2.80001C14.2286 2.52738 13.8429 2.37379 13.4272 2.64514L4.47397 8.18218L0.614351 6.99951C-0.223507 6.7384 -0.241749 6.17651 0.791566 5.77972V5.77972Z" fill="white"></path> </svg> </a> <br>
+			</li>
+			<li>
+				<a class="youtube" href="https://www.youtube.com/channel/UC-CQem9MXJWxTHPlL9aT8JA"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewbox="null"> <g> <g transform="matrix(1 0 0 -1 0 12.41)"> <g> <path fill="#fff" d="M16.967 1.908A2.206 2.206 0 0 0 15.44.333C14.084-.05 8.662-.05 8.662-.05s-5.423 0-6.778.368C1.156.524.556 1.142.357 1.908 0 3.306 0 6.206 0 6.206s0 2.914.357 4.298c.2.765.785 1.369 1.527 1.575 1.37.383 6.778.383 6.778.383s5.422 0 6.778-.368a2.206 2.206 0 0 0 1.527-1.575c.357-1.399.357-4.298.357-4.298s.014-2.915-.357-4.313z"></path> </g> <g> <path fill="#3834a5" d="M6.74 8.612l4.812-2.406L6.74 3.8z"></path> </g> </g> </g> </svg> </a> <br>
+			</li>
+		-->
+	</ul>
+	<div class="column__h footer__title">
+		Скачивай приложение "Мой ТГУ"<br>
+		для студентов
+	</div>
+	<ul class="footer__app-qr" style="margin-top: 20px; margin-bottom: 10px;">
+		<li style="margin-bottom: 10px;display: flex;">
+
+			<a href="https://apps.apple.com/us/app/%D0%BC%D0%BE%D0%B9-%D1%82%D0%B3%D1%83/id1645166117" target="_blank" style="width: 50%;text-align: center;">
+			<span class="footer__title" style="display: block;color: #ffffff;margin-bottom: 10px;">iOS</span>
+				<img width="100" height="100" style="background-color: #ffffff" alt="qr_iOS" src="/upload/iblock/new_socials/mytgu_ios_QRCode.svg">
+			</a>
+
+
+			<a href="#" target="_blank" style="width: 50%;text-align: center;">
+			<span class="footer__title" style="display: block;color: #ffffff;margin-bottom: 10px;">Android</span>
+				<img width="100" height="100" style="background-color: #ffffff" alt="qr_android" src="/upload/iblock/new_socials/mytgu_android_QRCode.svg">
+			</a>
+		</li>
+
+		<li style="margin-bottom: 10px;display: flex;flex-direction: column;text-align: center;">
+			<span class="footer__title" style="color: #ffffff;margin-bottom: 10px;">Пройди опрос! Участвуй в развитии вуза!</span>
+
+		</li>
+
+
+		<li style="margin-bottom: 10px;display: flex;text-align: center;">
+
+			<a href="/ads/obyavleniya_dir/obyavleniya-2024/druzya-otsenite-usloviya-predostavleniya-uslug-v-derzhavinskom/" target="_blank" style="width: 50%;text-align: center;">
+				<img width="100" height="100" style="background-color: #ffffff;border: 1px solid #fff;" alt="qr_android" src="/images/www/obyavlenie/2024/QrCode.png">
+				<span class="footer__title" style="display: block;color: #ffffff;margin-top: 10px;">НОК 2024</span>
+			</a>
+
+
+			<a href="https://bus.gov.ru/qrcode/rate/422406" target="_blank" style="width: 50%;text-align: center;">
+				<img width="100" height="100" style="background-color: #ffffff;border: 1px solid #fff;" alt="qr_android" src="/images/www/obyavlenie/2024/QrCode_NOK.png">
+				<span class="footer__title" style="display: block;color: #ffffff;margin-top: 10px;">Анкета bus.gov.ru</span>
+			</a>
+
+
+		</li>
+	</ul>
+	<div class="footer__app-buttons">
+		<a href="https://apps.apple.com/us/app/%D0%BC%D0%BE%D0%B9-%D1%82%D0%B3%D1%83/id1645166117" target="blank">
+			<div class="appLink">
+				<img src="/upload/iblock/new_socials/ios_logo.svg" alt="ios_logo">
+				<p>Загрузить<br>в AppStore</p>
+			</div>
+		</a>
+		<a href="https://play.google.com/store/apps/details?id=com.mytgumobile" target="blank">
+			<div class="appLink">
+				<img src="/upload/iblock/new_socials/android_logo.svg" alt="android_logo">
+				<p>Загрузить<br>в Google Play</p>
+			</div>
+		</a>
+	</div>
+</div>
+ <br>                    <div class="footer__contact flex">
+	<div class="mail">
+		<a href="mailto:post@tsu.tmb.ru"> <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewbox="null"> <g> <g> <path fill="inherit" d="M17.565 11.997a.52.52 0 0 1-.516.524H1.961a.52.52 0 0 1-.516-.524V2.406l6.712 5.405c.382.307.86.477 1.348.477.487 0 .966-.17 1.348-.477l6.712-5.405v9.591zM16.383 1.47l-6.44 5.197a.71.71 0 0 1-.897 0l-6.44-5.197zM17.04 0H1.961C.88 0 0 .894 0 1.993v10.014C0 13.106.88 14 1.96 14h15.08c1.08 0 1.96-.894 1.96-1.993V1.993C19 .894 18.12 0 17.04 0z"></path> </g> </g> </svg>
+		post@tsutmb.ru </a>
+	</div>
+	<div class="tel">
+		<a href="tel:+78002004465"> <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewbox="null"> <g> <g> <path fill="inherit" d="M15.024 8.903l2.546-2.546a.44.44 0 0 1 .623 0l1.06 1.06c.769.769 1.882 4.91-2.538 9.33-2.541 2.54-4.99 3.253-6.76 3.253-1.307 0-2.242-.39-2.568-.715l-1.06-1.061a.441.441 0 0 1 0-.624l2.545-2.545a.44.44 0 0 1 .624 0l1.65 1.65c.074.074.172.119.276.128.153.012.302.018.447.018 2.133 0 3.402-1.286 3.517-1.411a.408.408 0 0 1 .023-.023c.134-.123 1.591-1.562 1.393-3.964a.442.442 0 0 0-.128-.276l-1.65-1.65a.441.441 0 0 1 0-.624zm-.423 5.644a3.34 3.34 0 0 1-.825.625 3.891 3.891 0 0 1-1.993.49l-1.448-1.447a1.618 1.618 0 0 0-1.151-.477c-.435 0-.844.169-1.152.477L5.486 16.76a1.63 1.63 0 0 0 0 2.304l1.06 1.06c.401.401.983.642 1.4.773.603.19 1.298.29 2.01.29.551 0 1.118-.059 1.684-.175a9.694 9.694 0 0 0 1.875-.595c1.41-.607 2.768-1.56 4.04-2.831 1.116-1.115 1.989-2.302 2.594-3.527.525-1.06.848-2.145.962-3.221.094-.892.04-1.775-.157-2.552a4.94 4.94 0 0 0-.34-.95 2.81 2.81 0 0 0-.52-.759l-1.06-1.06a1.618 1.618 0 0 0-1.153-.477c-.435 0-.844.17-1.151.477l-2.546 2.546a1.63 1.63 0 0 0 0 2.303l1.448 1.448a3.893 3.893 0 0 1-.439 1.895c-.274.53-.58.826-.592.838z"></path> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width=".5" d="M15.024 8.903l2.546-2.546a.44.44 0 0 1 .623 0l1.06 1.06c.769.769 1.882 4.91-2.538 9.33-2.541 2.54-4.99 3.253-6.76 3.253-1.307 0-2.242-.39-2.568-.715l-1.06-1.061a.441.441 0 0 1 0-.624l2.545-2.545a.44.44 0 0 1 .624 0l1.65 1.65c.074.074.172.119.276.128.153.012.302.018.447.018 2.133 0 3.402-1.286 3.517-1.411a.408.408 0 0 1 .023-.023c.134-.123 1.591-1.562 1.393-3.964a.442.442 0 0 0-.128-.276l-1.65-1.65a.441.441 0 0 1 0-.624zm-.423 5.644a3.34 3.34 0 0 1-.825.625 3.891 3.891 0 0 1-1.993.49l-1.448-1.447a1.618 1.618 0 0 0-1.151-.477c-.435 0-.844.169-1.152.477L5.486 16.76a1.63 1.63 0 0 0 0 2.304l1.06 1.06c.401.401.983.642 1.4.773.603.19 1.298.29 2.01.29.551 0 1.118-.059 1.684-.175a9.694 9.694 0 0 0 1.875-.595c1.41-.607 2.768-1.56 4.04-2.831 1.116-1.115 1.989-2.302 2.594-3.527.525-1.06.848-2.145.962-3.221.094-.892.04-1.775-.157-2.552a4.94 4.94 0 0 0-.34-.95 2.81 2.81 0 0 0-.52-.759l-1.06-1.06a1.618 1.618 0 0 0-1.153-.477c-.435 0-.844.17-1.151.477l-2.546 2.546a1.63 1.63 0 0 0 0 2.303l1.448 1.448a3.893 3.893 0 0 1-.439 1.895c-.274.53-.58.826-.592.838z"></path> </g> </g> </svg>
+		8-800-200-44-65 </a>
+	</div>
+	<div class="tel">
+		<a href="tel:*4465"> <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewbox="null"> <g> <g> <path fill="inherit" d="M15.024 8.903l2.546-2.546a.44.44 0 0 1 .623 0l1.06 1.06c.769.769 1.882 4.91-2.538 9.33-2.541 2.54-4.99 3.253-6.76 3.253-1.307 0-2.242-.39-2.568-.715l-1.06-1.061a.441.441 0 0 1 0-.624l2.545-2.545a.44.44 0 0 1 .624 0l1.65 1.65c.074.074.172.119.276.128.153.012.302.018.447.018 2.133 0 3.402-1.286 3.517-1.411a.408.408 0 0 1 .023-.023c.134-.123 1.591-1.562 1.393-3.964a.442.442 0 0 0-.128-.276l-1.65-1.65a.441.441 0 0 1 0-.624zm-.423 5.644a3.34 3.34 0 0 1-.825.625 3.891 3.891 0 0 1-1.993.49l-1.448-1.447a1.618 1.618 0 0 0-1.151-.477c-.435 0-.844.169-1.152.477L5.486 16.76a1.63 1.63 0 0 0 0 2.304l1.06 1.06c.401.401.983.642 1.4.773.603.19 1.298.29 2.01.29.551 0 1.118-.059 1.684-.175a9.694 9.694 0 0 0 1.875-.595c1.41-.607 2.768-1.56 4.04-2.831 1.116-1.115 1.989-2.302 2.594-3.527.525-1.06.848-2.145.962-3.221.094-.892.04-1.775-.157-2.552a4.94 4.94 0 0 0-.34-.95 2.81 2.81 0 0 0-.52-.759l-1.06-1.06a1.618 1.618 0 0 0-1.153-.477c-.435 0-.844.17-1.151.477l-2.546 2.546a1.63 1.63 0 0 0 0 2.303l1.448 1.448a3.893 3.893 0 0 1-.439 1.895c-.274.53-.58.826-.592.838z"></path> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width=".5" d="M15.024 8.903l2.546-2.546a.44.44 0 0 1 .623 0l1.06 1.06c.769.769 1.882 4.91-2.538 9.33-2.541 2.54-4.99 3.253-6.76 3.253-1.307 0-2.242-.39-2.568-.715l-1.06-1.061a.441.441 0 0 1 0-.624l2.545-2.545a.44.44 0 0 1 .624 0l1.65 1.65c.074.074.172.119.276.128.153.012.302.018.447.018 2.133 0 3.402-1.286 3.517-1.411a.408.408 0 0 1 .023-.023c.134-.123 1.591-1.562 1.393-3.964a.442.442 0 0 0-.128-.276l-1.65-1.65a.441.441 0 0 1 0-.624zm-.423 5.644a3.34 3.34 0 0 1-.825.625 3.891 3.891 0 0 1-1.993.49l-1.448-1.447a1.618 1.618 0 0 0-1.151-.477c-.435 0-.844.169-1.152.477L5.486 16.76a1.63 1.63 0 0 0 0 2.304l1.06 1.06c.401.401.983.642 1.4.773.603.19 1.298.29 2.01.29.551 0 1.118-.059 1.684-.175a9.694 9.694 0 0 0 1.875-.595c1.41-.607 2.768-1.56 4.04-2.831 1.116-1.115 1.989-2.302 2.594-3.527.525-1.06.848-2.145.962-3.221.094-.892.04-1.775-.157-2.552a4.94 4.94 0 0 0-.34-.95 2.81 2.81 0 0 0-.52-.759l-1.06-1.06a1.618 1.618 0 0 0-1.153-.477c-.435 0-.844.17-1.151.477l-2.546 2.546a1.63 1.63 0 0 0 0 2.303l1.448 1.448a3.893 3.893 0 0 1-.439 1.895c-.274.53-.58.826-.592.838z"></path> </g> </g> </svg>
+		*4465 (звонки с сотовых <br> телефонов - бесплатные)</a>
+	</div>
+	<div class="tel">
+		<a href="tel:+78002004465"> <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewbox="null"> <g> <g> <path fill="inherit" d="M15.024 8.903l2.546-2.546a.44.44 0 0 1 .623 0l1.06 1.06c.769.769 1.882 4.91-2.538 9.33-2.541 2.54-4.99 3.253-6.76 3.253-1.307 0-2.242-.39-2.568-.715l-1.06-1.061a.441.441 0 0 1 0-.624l2.545-2.545a.44.44 0 0 1 .624 0l1.65 1.65c.074.074.172.119.276.128.153.012.302.018.447.018 2.133 0 3.402-1.286 3.517-1.411a.408.408 0 0 1 .023-.023c.134-.123 1.591-1.562 1.393-3.964a.442.442 0 0 0-.128-.276l-1.65-1.65a.441.441 0 0 1 0-.624zm-.423 5.644a3.34 3.34 0 0 1-.825.625 3.891 3.891 0 0 1-1.993.49l-1.448-1.447a1.618 1.618 0 0 0-1.151-.477c-.435 0-.844.169-1.152.477L5.486 16.76a1.63 1.63 0 0 0 0 2.304l1.06 1.06c.401.401.983.642 1.4.773.603.19 1.298.29 2.01.29.551 0 1.118-.059 1.684-.175a9.694 9.694 0 0 0 1.875-.595c1.41-.607 2.768-1.56 4.04-2.831 1.116-1.115 1.989-2.302 2.594-3.527.525-1.06.848-2.145.962-3.221.094-.892.04-1.775-.157-2.552a4.94 4.94 0 0 0-.34-.95 2.81 2.81 0 0 0-.52-.759l-1.06-1.06a1.618 1.618 0 0 0-1.153-.477c-.435 0-.844.17-1.151.477l-2.546 2.546a1.63 1.63 0 0 0 0 2.303l1.448 1.448a3.893 3.893 0 0 1-.439 1.895c-.274.53-.58.826-.592.838z"></path> <path fill="none" stroke="inherit" stroke-miterlimit="20" stroke-width=".5" d="M15.024 8.903l2.546-2.546a.44.44 0 0 1 .623 0l1.06 1.06c.769.769 1.882 4.91-2.538 9.33-2.541 2.54-4.99 3.253-6.76 3.253-1.307 0-2.242-.39-2.568-.715l-1.06-1.061a.441.441 0 0 1 0-.624l2.545-2.545a.44.44 0 0 1 .624 0l1.65 1.65c.074.074.172.119.276.128.153.012.302.018.447.018 2.133 0 3.402-1.286 3.517-1.411a.408.408 0 0 1 .023-.023c.134-.123 1.591-1.562 1.393-3.964a.442.442 0 0 0-.128-.276l-1.65-1.65a.441.441 0 0 1 0-.624zm-.423 5.644a3.34 3.34 0 0 1-.825.625 3.891 3.891 0 0 1-1.993.49l-1.448-1.447a1.618 1.618 0 0 0-1.151-.477c-.435 0-.844.169-1.152.477L5.486 16.76a1.63 1.63 0 0 0 0 2.304l1.06 1.06c.401.401.983.642 1.4.773.603.19 1.298.29 2.01.29.551 0 1.118-.059 1.684-.175a9.694 9.694 0 0 0 1.875-.595c1.41-.607 2.768-1.56 4.04-2.831 1.116-1.115 1.989-2.302 2.594-3.527.525-1.06.848-2.145.962-3.221.094-.892.04-1.775-.157-2.552a4.94 4.94 0 0 0-.34-.95 2.81 2.81 0 0 0-.52-.759l-1.06-1.06a1.618 1.618 0 0 0-1.153-.477c-.435 0-.844.17-1.151.477l-2.546 2.546a1.63 1.63 0 0 0 0 2.303l1.448 1.448a3.893 3.893 0 0 1-.439 1.895c-.274.53-.58.826-.592.838z"></path> </g> </g> </svg>
+		8(4752)72-34-34 </a>
+	</div>
+	<div class="adress">
+		<a> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewbox="null"> <g> <g> <g> <path fill="inherit" d="M6.366 19.773l-.002-.002-.006-.004-.017-.014a7.264 7.264 0 0 1-.266-.232 18.276 18.276 0 0 1-.72-.683 22.003 22.003 0 0 1-2.161-2.52C1.633 14.19 0 11.12 0 7.546 0 5.733.517 3.861 1.673 2.42 2.852.95 4.642 0 7 0s4.148.95 5.327 2.42C13.483 3.86 14 5.733 14 7.545c0 3.574-1.633 6.645-3.194 8.774a21.996 21.996 0 0 1-2.161 2.519 18.276 18.276 0 0 1-.986.915l-.017.014-.006.004-.001.002S7.633 19.774 7 19l-.002.003L6.995 19zm1.257.001a.987.987 0 0 1-1.257 0l.632-.771zM3.233 3.671C2.42 4.685 2 6.085 2 7.545c0 2.972 1.367 5.629 2.806 7.59A20.009 20.009 0 0 0 7 17.65c.072-.07.15-.145.23-.226a20.009 20.009 0 0 0 1.964-2.288C10.633 13.174 12 10.517 12 7.546c0-1.46-.42-2.861-1.233-3.875C9.977 2.686 8.767 2 7 2s-2.977.686-3.767 1.671z"></path> </g> <g> <path fill="inherit" d="M4 7a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path> </g> </g> </g> </svg> <span>392036, г. Тамбов, ул. <br>
+		Интернациональная, 33</span> </a>
+	</div>
+	<div class="wrapper__corporate__mail">
+		<a href="https://biz.mail.ru/login/tsutmb.ru"><button class="corporate__mail"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewbox="null"> <g> <g> <g> <path fill="inherit" d="M9.995 5.82L3.887 2h12.216zM10 8.18l8-5V11a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.18zM3 0a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3z"></path> </g> </g> </g> </svg>
+		Корпоративная почта </button></a>
+	</div>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__content flex">
+                <div class="footer__logo">
+                    <img src="/local/templates/tsu/img/footer__logo.png" alt="Логотип" height="68px">
+                </div>
+                <div class="link__theme__clear">
+                    <div class="theme__clear">
+                        © 2003-2024 Официальный сайт Тамбовского государственного университета имени Г.Р. Державина. Все права защищены.                    </div>
+                    <div class="clear__flex flex">
+                        <div class="privacy__policy">
+							<a href="/politika-konfidentsialnosti.php" target="_blank">Политика обработки персональных данных</a>
+                        </div>
+                        <div class="right">
+                            При использовании материалов ссылка на сайт обязательна.                        </div>
+                    </div>
+                </div>
+                <div class="footer__language">
+                    <a class="ru active" href="">RU</a>
+                    <a class="en" href="http://eng.tsutmb.ru/">EN</a>
+                    <a class="fr" href="http://cn.tsutmb.ru/">CN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="search-popup search-popup--close">
+    <div class="search-popup__close">
+        <svg class="search-popup__close-icon"><use href="/local/templates/tsu/sprite/sprite.svg#close"></use></svg>
+    </div>
+
+    <div class="search-popup__inner">
+        <div class="search-popup__top">
+            <div class="search-popup__title">Поиск по сайту</div>
+            
+<form class="search-popup__wrap-input" action="/search/index.php">
+	    	<input type="search" name="q" placeholder="Введите запрос" class="search-popup__input">
+        <button class="search-popup__submit" name="s">
+        <svg class="search-popup__submit-icon"><use href="/local/templates/tsu/sprite/sprite.svg#search"></use></svg>
+    </button>
+</form>            <div class="search-popup__sub-title">Популярные запросы</div>
+
+<div class="search-popup__list-query">
+    <a href="/institutes/med/" class="search-popup__query">Медицинский институт</a>
+    <a href="https://auth.tsutmb.ru/authorize?response_type=code&client_id=moodle1&state=xyz" class="search-popup__query">Moodle</a>
+    <a href="/about/telefonnyij_spravochnik/" class="search-popup__query">Телефонный справочник</a>
+    <a href="/institutes/ped/" class="search-popup__query">Педагогический институт</a>
+    <a href="/about/str/mnogofunkczionalnyij_czentr/" class="search-popup__query">МФЦ</a>
+    <a href="/abiturientu/" class="search-popup__query">Поступление</a>
+    <a href="/abiturientu/kalkulyator-ege/" class="search-popup__query">Баллы ЕГЭ</a>
+</div>			
+			
+        </div>
+
+        <div class="search-popup__bottom">
+            <div class="search-popup__commission"><b>Приемная комиссия:</b> <a href="tel:84752532222">8 (4752) 53-22-22</a></div>
+
+<div class="search-popup__list-social">
+    <a href="#" class="search-popup__social">
+        <svg width="10" height="16"><use href="/local/templates/tsu/sprite/sprite.svg#social-fb"></use></svg>
+    </a>
+
+    <a href="#" class="search-popup__social">
+        <svg width="18" height="18"><use href="/local/templates/tsu/sprite/sprite.svg#social-inst"></use></svg>
+    </a>
+
+    <a href="#" class="search-popup__social">
+        <svg width="18" height="11"><use href="/local/templates/tsu/sprite/sprite.svg#social-vk"></use></svg>
+    </a>
+
+    <a href="#" class="search-popup__social">
+        <svg width="17" height="14"><use href="/local/templates/tsu/sprite/sprite.svg#social-tg"></use></svg>
+    </a>
+
+    <a href="#" class="search-popup__social">
+        <svg width="18" height="14"><use href="/local/templates/tsu/sprite/sprite.svg#social-yt"></use></svg>
+    </a>
+</div>			
+			
+			
+        </div>
+    </div>
+</div>
+<style>
+
+        .cookie-notification {
+            position: fixed;
+			background-color: #fff;
+			bottom: 17px;
+			width: 90%;
+			color: #7a7e82;
+			padding: 25px;
+			overflow: hidden;
+			z-index: 1000;
+			margin: 0 auto;
+			border-radius: 10px;
+			box-shadow: 0 5px 29px -12px rgba(0, 0, 0, 0.9);
+			backdrop-filter: blur(4px);
+			display: flex;
+			align-items: center;
+			gap: 0 72px;
+			font-size: 12px;
+			left: 50%;
+    		transform: translateX(-50%);
+        }
+
+        .cookie-notification_hidden_yes {
+            display: none;
+        }
+
+        .cookie-notification__header {
+            margin-bottom: 10px;
+            font-size: 23px;
+        }
+
+        .cookie-notification__body {
+            margin-bottom: 10px;
+            word-wrap: break-word;
+        }
+
+
+        .cookie-notification__button {
+	        width: 150px;
+			height: 50px;
+			cursor: pointer;
+			border: none;
+			padding: 0 15px;
+			border-radius: 8px;
+			background-color: #3834a5;
+			color: #fff;
+			font-size: 14px;
+			font-weight: 500;
+        }
+
+        .cookie-notification__button:hover {
+            background-color: #ff7052;
+            -webkit-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+            color: #fff;
+        }
+
+
+	</style>
+<div class="cookie-notification cookie-notification_hidden_yes">
+
+		<div class="cookie-notification__body">
+			Этот сайт использует сервис веб-аналитики Яндекс Метрика, предоставляемый компанией ООО «ЯНДЕКС», 119021,
+			Россия, Москва, ул. Л. Толстого, 16 (далее — Яндекс).
+			<br/><br/>Сервис Яндекс Метрика использует технологию "cookie" — небольшие текстовые файлы, размещаемые на
+			компьютере пользователей с целью анализа их пользовательской активности.
+			<br/><br/>Вы можете отказаться от использования "cookie", выбрав соответствующие настройки в браузере. Также вы
+			можете использовать данный <a target="_blank" href="https://yandex.ru/support/metrika/general/opt-out.html">инструмент</a>. Однако, это может
+			повлиять на работу некоторых функций сайта. Используя этот сайт, вы соглашаетесь на обработку данных о вас
+			Яндексом в порядке и целях, указанных выше. <a target="_blank" href="https://yandex.ru/legal/metrica_termsofuse/">Подробнее</a>
+		</div>
+
+	<div class="cookie-notification__buttons">
+		<button class="cookie-notification__button" id="yes">Я согласен</button>
+	</div>
+</div>
+
+
+<svg class="icon-up-scroll" width="52" height="52" xmlns="http://www.w3.org/2000/svg">
+    <circle fill="#FF7052" cx="26" cy="26" r="26"/>
+    <path d="M30 24.2250513L26 20l-4 4.2250513M26 20v13" stroke="#FFF" fill="none" stroke-width="1.5"/>
+</svg>
+<script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(86229657, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1633077845252095"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1731595526','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'06ecb0eedb2daa93319165c9e25998ed'});</script><script type="text/javascript" src="/bitrix/js/main/core/core_fx.min.js?16330778409768"></script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript" src="/local/templates/tsu/js/anime.min.js?163307843617741"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/jquery.min.js?163307843689501"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/jquery.maskedinput.min.js?16330784363568"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/slick.min.js?163307843642863"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/swiper.js?1633078436145149"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/main.js?170686664537154"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/datepicker.min.js?163307843635542"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/jquery.mCustomScrollbar.concat.min.js?163307843745479"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/number_plugin.js?16330784377663"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/new-scripts.js?17068666373502"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/share.js?16330784363679"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/jquery.fancybox.min.js?163307843668253"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/js.cookie.js?17219923604921"></script>
+<script type="text/javascript" src="/local/templates/tsu/js/axios.min.js?172199025052247"></script>
+<script type="text/javascript" src="/local/asset/js/not-clear-tag.js?1633078437667"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "6689333f60b27c46537ffd50e6dc15f4"]); _ba.push(["host", "tsutmb.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3513922", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "tmr-code");
+</script>
+<script type="text/javascript" src="/local/templates/tsu/js/bootstrap.min3.js"></script><script type="text/javascript">
+    var messageElement = document.querySelector('.cookie-notification');
+    // Если нет cookies, то показываем плашку
+    if (!Cookies.get('agreement')) {
+        showMessage();
+    } else {
+        initCounter();
+    }
+    // Загружаем сам код счетчика сразу
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, 'script', '//mc.yandex.ru/metrika/tag.js', 'ym')
+
+    // Функция добавляет класс к DOM-элементу. Вы можете использовать библиотеку jQuery или другой фреймворк
+    function addClass(o, c) {
+        var re = new RegExp("(^|\\s)" + c + "(\\s|$)", "g");
+        if (!o || re.test(o.className)) {
+            return;
+        }
+        o.className = (o.className + " " + c).replace(/\s+/g, " ").replace(/(^ | $)/g, "");
+    }
+
+    // Функция удаляет класс из DOM-элемента. Вы можете использовать библиотеку jQuery или другой фреймворк
+    function removeClass(o, c) {
+        var re = new RegExp('(^|\\s)' + c + '(\\s|$)', 'g');
+        if (!o) {
+            return;
+        }
+        o.className = o.className.replace(re, '$1').replace(/\s+/g, ' ').replace(/(^ | $)/g, '');
+    }
+
+    // Функция, которая прячет предупреждение
+    function hideMessage() {
+        addClass(messageElement, 'cookie-notification_hidden_yes');
+    }
+
+    // Функция, которая показывает предупреждение
+    function showMessage() {
+        removeClass(messageElement, 'cookie-notification_hidden_yes');
+    }
+
+    function saveAnswer() {
+        // Прячем предупреждение
+        hideMessage();
+
+        // Ставим cookies
+        Cookies.set('agreement', '1', {
+            expires: 1
+        });
+    }
+
+    function initCounter() {
+        ym(86229657, 'init', {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+        saveAnswer();
+    }
+
+    // Нажатие кнопки "Я согласен"
+    document.querySelector('#yes').addEventListener('click', function () {
+        initCounter();
+    });
+</script></body>
+</html>
